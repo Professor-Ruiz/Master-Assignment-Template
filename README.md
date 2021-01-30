@@ -8,9 +8,8 @@
 
 ## Directions
 - Before writing any code, develop your algorithm. Create a flowchart to represent your program logic.
-    - [diagrams.net](https://app.diagrams.net/) is a free tool you can use to create flowcharts. It is linked to your google account.
-    - From the file menu, select ***Export As***, then choose ***JPG***.
-    - Save your flowchart as ***lesson10flowchart.jpg***.
+    - [diagrams.net](https://app.diagrams.net/) is a free and easy tool you can use to create flowcharts. 
+    - I created an [instructional video](https://web.microsoftstream.com/video/3284175f-4442-46d1-bc69-7d6af21d8fa6) for creating flowcharts.
 - Your program should accept three strings in any order, and print them in ascending alphabetical order to the console. 
 - The only data types allowed are strings (no lists). You cannot use looping or any predefined function or method.
 - The user prompt and output should be formatted exactly as the example below, down to the spaces.
