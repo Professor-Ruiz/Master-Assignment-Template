@@ -36,17 +36,8 @@
   <Description of program goes here>
   '''
   ```
-- Save your program as ***lesson10.py***
+- Complete and submit your program as directed in the video below, "GitHub Assignments"
+- Add your flowchart to the assignment repository as directed in the video below, "Adding files to GitHub Repositories"
 ## Submission
-[Link to video directions](https://web.microsoftstream.com/video/28c07f3f-c012-48c1-bcc3-c807c98728cc)
-1. From the ***Add file*** pull-down menu above, select ***Upload files***.
-2. Upload your ***lesson10.py*** and ***lesson10flowchart.jpg*** files.
-3. Click the green "***Commit changes***" button.
-4. If you see both ***lesson10.py*** and ***lesson10flowchart.jpg*** files in the repository, your submission was successful.
-## Check Test Cases (Optional)
-1. Select the ***Actions*** menu item near the top center of the screen.
-2. If ***Add files via upload***'s icon is a yellow-orange icon, it is still processing. Give it time.
-3. If a green check mark icon appears to the left of ***Add files via upload***, congratulations! Your code passed all test cases.
-4. If a red x icon appears to the left of ***Add files via upload***, your code failed the tests. 
-    - Click ***Add files via upload***, then the ***autograding*** button, to find clues as to why your code failed. 
-    - Open your IDE and debug your program, then resubmit on GitHub.
+[Link to video directions](https://web.microsoftstream.com/video/bb782956-759f-4ec6-9575-373df60b14c8)
+[Adding Files to GitHub Repositories](www.google.com)
