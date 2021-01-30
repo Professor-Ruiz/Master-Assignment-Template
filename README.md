@@ -1,5 +1,7 @@
 # Lesson 10 Programming Assignment
 
+> ![](/assets/crumbl.jpeg)
+>
 > Every week, Crumbl rotates at least three specialty cookies on their menu. They'd like to display these cookies alphabetically on their menu. Write a program to help them out with this.
 
 ## Objectives
