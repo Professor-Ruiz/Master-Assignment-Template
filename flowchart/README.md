@@ -10,5 +10,5 @@ Add your flowchart to this directory.
 - Click ***Add file*** near the upper right corner.
 - Select ***Upload files*** from the pull-down menu.
 - Upload your flowchart.
-- Click the green ***Commit Changes*** button below.
+- Click the green ***Commit Changes***.
 - Video Directions: [Adding Files to GitHub Repositories](https://web.microsoftstream.com/video/ba2567f6-8c94-4767-8143-e8e3d67d4804)
