@@ -37,7 +37,7 @@
   '''
   ```
 - Complete and submit your program as directed in the video below, "GitHub Assignments"
-- Add your flowchart to the assignment repository as directed in the video below, "Adding files to GitHub Repositories"
+- Add your flowchart to the ***flowchart*** directory of this repository as directed in the video below, "Adding files to GitHub Repositories"
 ## Submission
 [GitHub Assignments](https://web.microsoftstream.com/video/bb782956-759f-4ec6-9575-373df60b14c8)
 
