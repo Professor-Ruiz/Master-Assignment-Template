@@ -13,7 +13,7 @@
 
 - Before writing any code, develop your algorithm. Create a flowchart to represent your program logic.
     - [diagrams.net](https://app.diagrams.net/) is a free and easy tool you can use to create flowcharts. 
-    - I created an [instructional video](https://web.microsoftstream.com/video/3284175f-4442-46d1-bc69-7d6af21d8fa6) for creating flowcharts.
+    - I created an [instructional video](https://youtu.be/jbAJk1pBUYk) for creating flowcharts.
     
 - The user prompt and output should be formatted exactly as the example below:
   ```
@@ -44,11 +44,11 @@
 ## Submission
 1. Complete and submit your program as outlined in the instructional video linked below:
         
-    - [GitHub Assignments](https://web.microsoftstream.com/video/bb782956-759f-4ec6-9575-373df60b14c8)
+    - [GitHub Assignments](https://youtu.be/SrJ_c8S1_D8)
 
 2. Add ***lesson10flowchart.jpg*** to this repository as outlined in the instructional video linked below:
         
-    - [Adding Files to GitHub Repositories](https://web.microsoftstream.com/video/ba2567f6-8c94-4767-8143-e8e3d67d4804)
+    - [Adding Files to GitHub Repositories](https://youtu.be/5t8a6apqUGU)
     
 ## Grading
 There is a total of 20 points possible for this assignment:
