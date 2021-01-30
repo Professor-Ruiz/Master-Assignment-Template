@@ -42,8 +42,8 @@
 ## Submission
 1. Complete and submit your program as outlined in the instructional video linked below:
         
-- [GitHub Assignments](https://web.microsoftstream.com/video/bb782956-759f-4ec6-9575-373df60b14c8)
+    - [GitHub Assignments](https://web.microsoftstream.com/video/bb782956-759f-4ec6-9575-373df60b14c8)
 
 2. Add ***lesson10flowchart.jpg*** to this repository as outlined in the instructional video linked below:
         
-- [Adding Files to GitHub Repositories](https://web.microsoftstream.com/video/ba2567f6-8c94-4767-8143-e8e3d67d4804)
+    - [Adding Files to GitHub Repositories](https://web.microsoftstream.com/video/ba2567f6-8c94-4767-8143-e8e3d67d4804)
