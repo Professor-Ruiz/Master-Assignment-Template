@@ -7,7 +7,7 @@ Add your flowchart to this directory.
 - The flowchart uses the correct shape for each process outlined.
 - The flowchart follows the logic of your program.
 ## Directions
-- Click ***Add file*** in the upper right screen.
+- Click ***Add file*** near the upper right corner.
 - Select ***Upload files*** from the pull-down menu.
 - Upload your flowchart.
 - Click the green ***Commit Changes*** button below.
