@@ -2,7 +2,7 @@ import pytest
 import src.exercise
 
 def test_case_1(capsys):
-    ''' Captures the output of the program, and verifies it alphabetizes the input '''
+    ''' Captures the output of the program, and verifies it is alphabetized '''
     
     # Test input and output:
     input_values = ["Snickerdoodle Cupcake","Biscoff Lava","Pumpkin Chocolate Chip"]
@@ -22,7 +22,7 @@ def test_case_1(capsys):
     assert err == ''
 
 def test_case_2(capsys):
-    ''' Captures the output of the program, and verifies it alphabetizes the input '''
+    ''' Captures the output of the program, and verifies it is alphabetized '''
     
     # Test input and output:
     input_values = ["Lemon Glaze","Confetti Cake","Reese's Peanut Butter Chip"]
