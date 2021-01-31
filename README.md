@@ -53,9 +53,9 @@ There is a total of 20 points possible for this assignment:
 |-|-|
 | Docstring:<br>- is at the top of the program, <br>- is formatted exactly as the example, and<br>- contents have been edited by student. | 1 |
 | Submission:<br>Assignment files were submitted properly via GitHub:<br>- exercise.py<br>- lesson10flowchart.jpg | 1 |
-| Identifiers:<br>- use snake case, and<br>- are descriptive of the data it is assigned.<br>https://www.python.org/dev/peps/pep-0008/#naming-conventions | 1 |
+| Identifiers:<br>- use snake case, and<br>- are descriptive of the data it is assigned.<br>[PEP8 Naming Conventions](https://www.python.org/dev/peps/pep-0008/#naming-conventions) | 1 |
 | Formatting:<br>- follows the example in the directions. | 1 |
-| Comments:<br>- implemented in program<br>- clearly describe code purpose<br>- follow PEP8 guidelines<br>https://www.python.org/dev/peps/pep-0008/#comments | 1 |
-| Flowchart:<br>- is clear and readable,<br>- follows the logic of the program,<br>- uses the correct shapes, and<br>- is saved in jpg format | 3 |
+| Comments:<br>- implemented in program<br>- clearly describe code purpose<br>- follow PEP8 guidelines<br>[PEP8 Comments](https://www.python.org/dev/peps/pep-0008/#comments) | 1 |
+| Flowchart:<br>- is clear and readable,<br>- follows the logic of the program,<br>- uses the correct shapes, and<br>- is saved in jpg format<br>[Creating and Submitting Flowcharts](https://youtu.be/oy5nhA7QpNI) | 3 |
 | Test Case 1:<br>- Input: <br>     Snickerdoodle Cupcake<br>     Biscoff Lava<br>     Pumpkin Chocolate Chip<br>- Output:<br>     Biscoff Lava<br>     Pumpkin Chocolate Chip<br>     Snickerdoodle Cupcake | 6 |
 | Test Case 2:<br>- Input:<br>     Lemon Glaze<br>     Confetti Cake<br>     Reese's Peanut Butter Chip<br>- Output:<br>     Confetti Cake<br>     Lemon Glaze<br>     Reese's Peanut Butter Chip | 6 |
