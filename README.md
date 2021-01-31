@@ -42,13 +42,13 @@
   ```
   
 ## Submission
-1. Complete and submit your program as outlined in the instructional video linked below:
+1. Complete and submit your program as outlined in the video below:
         
     - [GitHub Assignments](https://youtu.be/SrJ_c8S1_D8)
 
-2. Add ***lesson10flowchart.jpg*** to this repository as outlined in the instructional video linked below:
+2. Add ***lesson10flowchart.jpg*** to the ***flowchart*** directory of this repository as outlined in the video below:
         
-    - [Adding Files to GitHub Repositories](https://youtu.be/oy5nhA7QpNI)
+    - [Creating and uploading flowcharts to GitHub](https://youtu.be/oy5nhA7QpNI)
     
 ## Grading
 There is a total of 20 points possible for this assignment:
