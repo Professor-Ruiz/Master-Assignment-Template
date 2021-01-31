@@ -1,0 +1,13 @@
+# ignore updates to the following directories:
+/assets
+/flowchart
+
+# ignore updates to the following file types:
+*.md
+*.jpg
+*.jpeg
+
+# ignore all python files not enclosed in the src or tests directory:
+*.py
+!/src/*.py
+!/tests/*.py
