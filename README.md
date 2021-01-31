@@ -6,7 +6,7 @@
 
 ## Objectives
 - Practice using conditionals to solve problems.
-- Learn how to create flowcharts, and include them in your assignment submissions.
+- Learn how to create flowcharts, and upload them in your assignment repositories.
 
 ## Directions
 - Your program should accept three strings in any order, and print them in ascending alphabetical order to the console. The only data types allowed are strings (no lists). You cannot use looping or any predefined function or method.
