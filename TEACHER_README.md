@@ -26,6 +26,7 @@
     - The outputs on line [16](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L16) & [19](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L19) should be in string form, and include \\n characters when needed.
         - Example 1: "\nBiscoff Lava\nPumpkin Chocolate Chip\nSnickerdoodle Cupcake\n"
         - Example 2: "6"
+    - DO NOT include user prompts from any `input()` functions in the output string.
     - Make sure the rubric at the bottom of the [README.md](README.md) file lists these two tests as the test cases.
         
 4. Delete this TEACHER_README.md file
