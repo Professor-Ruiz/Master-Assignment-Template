@@ -1,5 +1,5 @@
 # Using this template
-> This is a master template for creating autograded assignments. To use this template for your GitHub assignments, follow these steps in order:
+    > This is a master template for creating autograded assignments. To use this template for your GitHub assignments, follow these steps in order:
 
 1. [Clone this master-assignment-template](#clone-this-master-assignment-template)
 2. [Create an assignment repository](#create-custom-assignment-repositories)
@@ -7,7 +7,7 @@
 3. [Create an assignment in GitHub Classroom](#create-assignments-in-github-classroom)
 
 ## Clone this maste-assignment-template
-> You only need to complete this step one time. This will give you your own copy of the master template. You will use it as a template when creating your own assignment repositories.
+    > You only need to complete this step one time. This will give you your own copy of the master template. You will use it as a template when creating your own assignment repositories.
 
 1. Click the ***Code*** button in the upper right corner of this repository's [code directory](https://github.com/Professor-Ruiz/master-assignment-template)
 
@@ -31,7 +31,7 @@
     - Don't make changes to your copy of ***master-assignment-template***
 
 ## Create custom assignment repositories
-> For each assignment you'd like to create in GitHub classroom, create a new repository using your master-assignment-template as it's template.
+    > For each assignment you'd like to create in GitHub classroom, create a new repository using your master-assignment-template as it's template.
 
 1. Navigate to https://github.com/new
 
