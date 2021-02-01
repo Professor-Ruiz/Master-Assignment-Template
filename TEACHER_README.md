@@ -1,15 +1,15 @@
 # Using this template
     
-   > This is a master template for creating autograded assignments. To use this template for your GitHub assignments, follow these steps in order:
+> This is a master template for creating autograded assignments. To use this template for your GitHub assignments, follow these steps in order:
 
 1. [Clone this master-assignment-template](#clone-this-master-assignment-template)
-2. [Create an assignment repository](#create-custom-assignment-repositories)
+2. [Create an assignment repository](#create-an-assignment-repository)
 3. [Update and edit your assignment repository](#update-your-assignment-repositories)
 3. [Create an assignment in GitHub Classroom](#create-assignments-in-github-classroom)
 
-## Clone this maste-assignment-template
+## Clone this master-assignment-template
 
-> You only need to complete this step one time. This will give you your own copy of the master template. You will use it as a template when creating your own assignment repositories.
+> You only need to complete this step one time. This will give you your own copy of the master template. You will use it as a template each time you create your own assignment repositories.
 
 1. Click the ***Code*** button in the upper right corner of this repository's [code directory](https://github.com/Professor-Ruiz/master-assignment-template)
 
@@ -32,8 +32,8 @@
     - You'll use this as a template each time you make a new assignment repository
     - Don't make changes to your copy of ***master-assignment-template***
 
-## Create custom assignment repositories
-    > For each assignment you'd like to create in GitHub classroom, create a new repository using your master-assignment-template as it's template.
+## Create an assignment repository
+> For each assignment you'd like to create in GitHub classroom, create a new repository using your copy of master-assignment-template as it's template.
 
 1. Navigate to https://github.com/new
 
@@ -45,9 +45,10 @@
 
 ## Update and edit your assignment repository
 
-1. Update [README.md](README.md) file. It's the directions the students will see when they accept the assignment.
+1. Update [README.md](README.md) file. It is the directions the students will see when they accept the assignment.
+    
 
-2. Check [exercise.py](/src/exercise.py) to see if the student template needs to be updated for this new assignment.
+2. Check [exercise.py](/src/exercise.py) to see if the student's skeleton code needs to be updated for this new assignment.
     - Do you need to add a user-defined function stub?
     
 3. Will students need to import any modules into this program?
@@ -72,7 +73,7 @@
         - Example 1: "\nBiscoff Lava\nPumpkin Chocolate Chip\nSnickerdoodle Cupcake\n"
         - Example 2: "6"
     - DO NOT include user prompts from any `input()` functions in the output string.
-    - Make sure the rubric at the bottom of the [README.md](README.md) file lists these two tests as the test cases.
+    - Make sure the [rubric](README.md#grading) at the bottom of the [README.md](README.md) file lists these two tests as the test cases.
         
 ## Create assignments in GitHub Classroom
 
