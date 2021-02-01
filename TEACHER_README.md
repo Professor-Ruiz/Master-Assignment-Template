@@ -1,11 +1,11 @@
 # Using this template
     
-> This is a master template for creating autograded assignments. To use this template for your GitHub assignments, follow these steps in order:
+> This is a master template for creating autograded Python assignments. To use this template for your GitHub assignments, follow these steps in order:
 
 1. [Clone this master-assignment-template](#clone-this-master-assignment-template)
 2. [Create an assignment repository](#create-an-assignment-repository)
 3. [Update and edit your assignment repository](#update-your-assignment-repositories)
-3. [Create an assignment in GitHub Classroom](#create-assignments-in-github-classroom)
+3. [Create an assignment in GitHub Classroom](#create--an-assignment-in-github-classroom)
 
 ## Clone this master-assignment-template
 
@@ -45,9 +45,13 @@
 
 ## Update and edit your assignment repository
 
-1. Update [README.md](README.md) file. It is the directions the students will see when they accept the assignment.
-    
+1. Make your repository a Template repository
+    - Click the ***Settings*** menu in the upper right corner
+    - Click the ***Template repository*** option
+    - A green check mark to the right indicates success
 
+1. Update the [README.md](README.md) file. It is the directions the students will see when they accept the assignment.
+    
 2. Check [exercise.py](/src/exercise.py) to see if the student's skeleton code needs to be updated for this new assignment.
     - Do you need to add a user-defined function stub?
     
@@ -63,7 +67,7 @@
         pip install pytest flake8 sys NumPy Tkinter
         ```
     
-3. Update [lines 15-19](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L15) of test_exercise.py to reflect the new assignment's test cases:
+4. Update [lines 15-19](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L15) of test_exercise.py to reflect the new assignment's test cases:
 
     - This pytest runs two input/output tests.
     - The inputs on lines [15](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L15) & [18](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L18) should be a list, even if it's just one element.
@@ -73,19 +77,37 @@
         - Example 1: "\nBiscoff Lava\nPumpkin Chocolate Chip\nSnickerdoodle Cupcake\n"
         - Example 2: "6"
     - DO NOT include user prompts from any `input()` functions in the output string.
-    - Make sure the [rubric](README.md#grading) at the bottom of the [README.md](README.md) file lists these two tests as the test cases.
+    - Make sure the [rubric](README.md#grading) in the README.md file lists these two tests as the test cases.
+    
+5. Delete this file (```TEACHER_README.md```) from this new assignment repository
         
-## Create assignments in GitHub Classroom
+## Create an assignment in GitHub Classroom
+> Once you've created an assignment repository template, you'll want to create an assignment.
 
-1. Select the assignment repository you made specifically for the new assignment.
-    - Example: ```Professor-Ruiz/CS1030-Lesson-10```
+1. Navigate to https://classroom.github.com/classrooms
 
-2. If your students will use Repl.it for this assignment, enter this Repl.it configuration when creating the assignment:
+2. Open the relevant Classroom.
+
+3. Click the green ***New assignment** button.
+
+4. Give the assignment a name, choose it's visibility, then click ***Continue***
+
+5. In the ***Select a repository*** pull-down menu, select the assignment repository you just created:
+    - Type in your organization name, followed by a forward slash /
+    - Scroll until you find the repository
+
+6. If you want your students to use Repl.it for this assignment, enter this Repl.it configuration:
     ```
     Run command:    python3 src/exercise.py
     Language:       Python 3
     ```
-    
-3. Do not add tests
+    - Repl.it's Free accounts do not allow students to import assignments (repositories) set to "Private" visibility. In order for your students to successfuly use Repl.it for a GitHub assignment, you must choose an option:
+        - Make the assignment's repository visibility "Public", or 
+        - Keep the visibility "Private", and either
+            - Direct your students to enroll in the "GitHub Student Developer Pack", then sign up for Repl.it's Hacker plan for 6 months free, or
+            - Direct your students to pay for Repl.it's Hacker plan.
+     - PLEASE NOTE: When assignments are set to "public" visibility, students have access to each other's solutions. This may cause issues with plagiarism.
+         
+7. Click ***Continue***
 
-Delete this TEACHER_README.md file
+8. DO NOT Add any tests on this page! Click ***Create assignment***
