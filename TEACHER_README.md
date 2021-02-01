@@ -3,10 +3,13 @@
 To use this template for your GitHub assignments, follow these steps in order:
 
 1. [Clone this Master-Assignment-Template](#clone-this-master-assignment-template)
-2. [Create custom assignment repositories](#create-custom-assignment-repositories)
-3. [Create assignments in GitHub Classroom](#create-assignments-in-github-classroom)
+2. [Create an assignment repository](#create-custom-assignment-repositories)
+3. [Update and edit your assignment repository](#update-your-assignment-repositories)
+3. [Create an assignment in GitHub Classroom](#create-assignments-in-github-classroom)
 
 ## Clone this Master_Assignment_Template
+> You only need to complete this step one time.
+
 1. Click the ***Code*** button in the upper right corner of this repository's [code directory](https://github.com/Professor-Ruiz/Master-Assignment-Template)
 
 2. Copy the Clone URL that appears in the pop-up text box
@@ -29,10 +32,14 @@ To use this template for your GitHub assignments, follow these steps in order:
     - Don't make changes to your copy of ***Master-Assignment-Template***
 
 ## Create custom assignment repositories
-1. Create a new repository
-2. In the pull-down menu with the text ***No Template***, find your ***Master-Assignment-Template***
 
-Clone your ***Master-Assignment-Template***, and begin editing it for the students 
+1. Navigate to https://github.com/new
+
+2. In the pull-down menu with the text ***No Template***, find your ***Master-Assignment-Template*** repository
+
+3. Name your assignment repository, then click ***Create repository***
+
+## Update your assignment repositories
 
 1. Update [README.md](README.md) file for new assignment directions for the student.
 
