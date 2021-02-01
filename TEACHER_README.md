@@ -4,7 +4,7 @@
 
 1. [Clone this master-assignment-template](#clone-this-master-assignment-template)
 2. [Create an assignment repository](#create-an-assignment-repository)
-3. [Update and edit your assignment repository](#update-your-assignment-repositories)
+3. [Update and edit your assignment repository](#update-and-edit-your-assignment-repository)
 3. [Create an assignment in GitHub Classroom](#create--an-assignment-in-github-classroom)
 
 ## Clone this master-assignment-template
