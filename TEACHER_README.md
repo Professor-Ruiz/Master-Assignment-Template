@@ -67,13 +67,13 @@
         pip install pytest flake8 sys NumPy Tkinter
         ```
     
-4. Update [lines 15-19](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L15) of test_exercise.py to reflect the new assignment's test cases:
+4. Update [lines 15-19](/tests/test_exercise.py#L15) of test_exercise.py to reflect the new assignment's test cases:
 
     - This pytest runs two input/output tests.
-    - The inputs on lines [15](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L15) & [18](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L18) should be a list, even if it's just one element.
+    - The inputs on lines [15](/tests/test_exercise.py#L15) & [18](/tests/test_exercise.py#L18) should be a list, even if it's just one element.
         - Example 1: ["Snickerdoodle Cupcake","Biscoff Lava","Pumpkin Chocolate Chip"]
         - Example 2: [5]
-    - The outputs on line [16](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L16) & [19](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L19) should be in string form, and include \\n characters when needed.
+    - The outputs on line [16](/tests/test_exercise.py#L16) & [19](/tests/test_exercise.py#L19) should be in string form, and include \\n characters when needed.
         - Example 1: "\nBiscoff Lava\nPumpkin Chocolate Chip\nSnickerdoodle Cupcake\n"
         - Example 2: "6"
     - DO NOT include user prompts from any `input()` functions in the output string.
