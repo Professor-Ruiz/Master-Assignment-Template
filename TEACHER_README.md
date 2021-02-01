@@ -21,9 +21,11 @@
 
     - This pytest runs two input/output tests.
     - The inputs on lines [15](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L15) & [18](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L18) should be a list, even if it's just one element.
-        - Ex: ["Snickerdoodle Cupcake","Biscoff Lava","Pumpkin Chocolate Chip"]
+        - Example 1: ["Snickerdoodle Cupcake","Biscoff Lava","Pumpkin Chocolate Chip"]
+        - Example 2: [5]
     - The outputs on line [16](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L16) & [19](https://github.com/RuizTheRuler/Assignment-Template-2/blob/d73b8c2c9ad5e3d4435f6096b9fc1a76c3080002/tests/test_exercise.py#L19) should be in string form, and include \\n characters when needed.
-        - Ex: "\nBiscoff Lava\nPumpkin Chocolate Chip\nSnickerdoodle Cupcake\n"
+        - Example 1: "\nBiscoff Lava\nPumpkin Chocolate Chip\nSnickerdoodle Cupcake\n"
+        - Example 2: "6"
     - Make sure the rubric at the bottom of the [README.md](README.md) file lists these two tests as the test cases.
         
 4. Delete this TEACHER_README.md file
