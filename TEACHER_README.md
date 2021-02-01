@@ -54,7 +54,7 @@
 
 1. Update the [README.md](README.md) file. It is the directions the students will see when they accept the assignment.
     
-2. Check [exercise.py](/src/exercise.py) to see if the student's skeleton code needs to be updated for this new assignment.
+2. Check [exercise.py](/src/exercise.py) to see if the student's boiler-plate code needs to be updated for this new assignment.
     - Do you need to add a user-defined function stub?
     
 3. Will students need to import any modules into this program?
