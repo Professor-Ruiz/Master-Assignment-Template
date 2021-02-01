@@ -1,42 +1,35 @@
+'''
+For each new assignment template made from this repo,
+the only changes needed to test_exercise.py
+are the input/output pairs below on lines 12 - 19
+Inputs should be entered as a list, even if only 1 value.
+Outputs should be a string.
+(Professor Bianca Ruiz)
+References:
+- https://docs.pytest.org/en/stable/parametrize.html
+- https://docs.pytest.org/en/stable/capture.html
+'''
 import pytest
 import src.exercise
 
-def test_case_1(capsys):
-    ''' Captures the output of the program, and verifies it is alphabetized '''
-    
-    # Test input and output:
-    input_values = ["Snickerdoodle Cupcake","Biscoff Lava","Pumpkin Chocolate Chip"]
-    assert_out =   '\nBiscoff Lava\nPumpkin Chocolate Chip\nSnickerdoodle Cupcake\n'
-    
-    # Cycle the sample input through the student program:
-    def mock_input(s):
-        return input_values.pop(0)
-    src.exercise.input = mock_input
-    
-    # Execute the student program, and capture the output (print stateements):
-    src.exercise.main()
-    out, err = capsys.readouterr()
-    
-    # Test the actual program output against the anticipated program output:
-    assert out == assert_out
-    assert err == ''
+inp_1  = ["Snickerdoodle Cupcake","Biscoff Lava","Pumpkin Chocolate Chip"]
+out_1 = "\nBiscoff Lava\nPumpkin Chocolate Chip\nSnickerdoodle Cupcake\n"
 
-def test_case_2(capsys):
-    ''' Captures the output of the program, and verifies it is alphabetized '''
-    
-    # Test input and output:
-    input_values = ["Lemon Glaze","Confetti Cake","Reese's Peanut Butter Chip"]
-    assert_out =   "\nConfetti Cake\nLemon Glaze\nReese's Peanut Butter Chip\n"    
-    
-    # Cycle the sample input through the student program:
+inp_2  = ["Lemon Glaze","Confetti Cake","Reese's Peanut Butter Chip"]
+out_2 = "\nConfetti Cake\nLemon Glaze\nReese's Peanut Butter Chip\n"
+
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2)])
+def test_capture_stdout(capsys, test_input, expected):
+
+    # Load the test input for the program execution:
     def mock_input(s):
-        return input_values.pop(0)
+        return test_input.pop(0)
     src.exercise.input = mock_input
     
-    # Execute the student program, and capture the output (print stateements):
+    # Execute the student program, and capture the output (print statements):
     src.exercise.main()
     out, err = capsys.readouterr()
     
     # Test the actual program output against the anticipated program output:
-    assert out == assert_out
-    assert err == ''  
+    assert out == expected
