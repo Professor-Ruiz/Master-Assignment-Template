@@ -38,8 +38,6 @@
 1. Navigate to https://github.com/new
 
 2. In the pull-down menu with the text ***No Template***, find your ***master-assignment-template*** repository
-    - Type in your organization name, followed by a forward slash /
-    - Scroll until you find the repository
 
 3. Make sure your organization is the repository owner (not your personal GitHub username) 
 
