@@ -1,15 +1,36 @@
 # TODO
 
-- [x] Clone this Master_Assignment_Template into your own repository.
-- [x] Create a new assignment repository (from your copy of Master_Assignment_Template) for each new assignment you'd like to create for your students.
-- [x] Create the assignments in GitHub Classroom using the new assignment repository you created.
+1. Clone this Master_Assignment_Template into your own repository.
+2. Create a custom assignment repository for each new assignment.
+3. Create the assignments in GitHub Classroom using the new assignment repository you created.
 
-## Clone this Master_Assignment_Template
-- make it a template repository
-- name it ***\<your username or organization>/Master-Assignment-Template***
-- Don't alter this repository, you'll use it to create actual assignment repositories for your students
+## 1. Clone this Master_Assignment_Template.
+1. Click the ***Code*** button in the upper right corner of this repository
 
-## Create Assignment Templates for each of your assignments
+2. Copy the Clone URL that appears in the pop-up text box
+    - Example: https://github.com/RuiztTheRuler/Master-Assignment-Template
+    
+3. Create yourself a new repository
+    -  At the very top of the page, you'll see the following text:
+        - *A repository contains all project files, including the revision history. Already have a project repository elsewhere? Import a repository.*
+    - Click the link ***Import a repository***
+    - Paste the clone URL in the text box
+    - Make sure your organization is the repository owner (not your GitHub username)
+    - Name your repository ***Master-Assignment-Template**, then click ***Begin Import***
+    
+4. Make ***Master-Assignment-Template*** a template
+    - Open Master-Assignment-Template
+    - Click the ***Settings*** menu in the upper right corner
+    - Click the ***Template repository*** option
+    - A green check mark to the right indicates success
+     
+4. Now you have your own copy of ***Master-Assignment-Template***!
+    - You'll use this each time you make a new assignment repository
+    - Don't make changes to your ***Master-Assignment-Template***
+
+## 2. Create a custom assignment repository for each new assignment.
+1. Create a new repository
+2. In the pull-down menu with the text ***No Template***, find your ***Master-Assignment-Template***
 
 Clone your ***Master-Assignment-Template***, and begin editing it for the students 
 
@@ -42,7 +63,7 @@ Clone your ***Master-Assignment-Template***, and begin editing it for the studen
     - DO NOT include user prompts from any `input()` functions in the output string.
     - Make sure the rubric at the bottom of the [README.md](README.md) file lists these two tests as the test cases.
         
-## When creating a new assignment in your GitHub Classroom:
+## 3. When creating a new assignment in your GitHub Classroom:
 
 1. Select the assignment repository you made specifically for the new assignment.
     - Example: ```Professor-Ruiz/CS1030-Lesson-10```
