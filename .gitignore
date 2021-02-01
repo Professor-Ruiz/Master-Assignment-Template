@@ -1,13 +1,15 @@
-# ignore updates to the following directories:
-/assets
-/flowchart
+# Reference: http://git-scm.com/docs/gitignore
 
-# ignore updates to the following file types:
-*.md
-*.jpg
-*.jpeg
+# ignore the following directories:
+**/assets
+**/flowchart
 
-# ignore all python files not enclosed in the src or tests directory:
-*.py
-!/src/*.py
-!/tests/*.py
+# ignore the following file types:
+**/*.md
+**/*.jpg
+**/*.jpeg
+
+# ignore all python files except exercise and test_exercise:
+**/*.py
+!**/test_exercise.py
+!**/exercise.py
