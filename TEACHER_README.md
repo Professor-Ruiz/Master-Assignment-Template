@@ -29,4 +29,11 @@
     - DO NOT include user prompts from any `input()` functions in the output string.
     - Make sure the rubric at the bottom of the [README.md](README.md) file lists these two tests as the test cases.
         
-4. Delete this TEACHER_README.md file
+4. If your students will use Repl.it for this assignment, enter this Repl.it configuration when creating the assignment:
+
+        ```
+        Run command: python3 src/exercise.py
+        Language: Python 3
+        ```
+
+Delete this TEACHER_README.md file
