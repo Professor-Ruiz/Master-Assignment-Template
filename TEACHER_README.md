@@ -2,7 +2,7 @@
 
 1. [Clone this Master-Assignment-Template](#clone-this-master-assignment-template)
 2. [Create custom assignment repositories](#create-custom-assignment-repositories)
-3. Create assignments in GitHub Classroom.
+3. [Create assignments in GitHub Classroom](#create-assignments-in-github-classroom)
 
 ## Clone this Master_Assignment_Template
 1. Click the ***Code*** button in the upper right corner of this repository
