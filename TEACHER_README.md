@@ -1,7 +1,7 @@
 # TODO
 
-1. [Clone this Master_Assignment_Template into your own repository.](##clone-this-master-assignment-template)
-2. [Create a custom assignment repository for each new assignment.](##create-a-custom-assignment-repository-for-each-new-assignment)
+1. [Clone this Master_Assignment_Template into your own repository.](#clone-this-master-assignment-template)
+2. [Create a custom assignment repository for each new assignment.](#create-a-custom-assignment-repository-for-each-new-assignment)
 3. Create the assignments in GitHub Classroom using the new assignment repository you created.
 
 ## Clone this Master_Assignment_Template
