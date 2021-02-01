@@ -1,4 +1,17 @@
-# Checklist
+# TODO
+
+- [x] Clone this Master_Assignment_Template into your own repository.
+- [x] Create a new assignment repository (from your copy of Master_Assignment_Template) for each new assignment you'd like to create for your students.
+- [x] Create the assignments in GitHub Classroom using the new assignment repository you created.
+
+## Clone this Master_Assignment_Template
+- make it a template repository
+- name it ***\<your username or organization>/Master-Assignment-Template***
+- Don't alter this repository, you'll use it to create actual assignment repositories for your students
+
+## Create Assignment Templates for each of your assignments
+
+Clone your ***Master-Assignment-Template***, and begin editing it for the students 
 
 1. Update [README.md](README.md) file for new assignment directions for the student.
 
@@ -29,11 +42,17 @@
     - DO NOT include user prompts from any `input()` functions in the output string.
     - Make sure the rubric at the bottom of the [README.md](README.md) file lists these two tests as the test cases.
         
-4. If your students will use Repl.it for this assignment, enter this Repl.it configuration when creating the assignment:
+## When creating a new assignment in your GitHub Classroom:
 
-        ```
-        Run command: python3 src/exercise.py
-        Language: Python 3
-        ```
+1. Select the assignment repository you made specifically for the new assignment.
+    - Example: ```Professor-Ruiz/CS1030-Lesson-10```
+
+2. If your students will use Repl.it for this assignment, enter this Repl.it configuration when creating the assignment:
+    ```
+    Run command:    python3 src/exercise.py
+    Language:       Python 3
+    ```
+    
+3. Do not add tests
 
 Delete this TEACHER_README.md file
