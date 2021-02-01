@@ -9,4 +9,4 @@ Add your flowchart to this directory.
 ## Directions
 - [Creating and adding flowcharts to GitHub](https://youtu.be/oy5nhA7QpNI)
 ## Example Flowchart
-  ![Cookie Flowchart](/assets/odd_even_flowchart.jpg)
+              ![Example Flowchart](/assets/lessonXflowchart.jpg)
