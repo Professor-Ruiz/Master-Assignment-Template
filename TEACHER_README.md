@@ -62,7 +62,7 @@
         import NumPy
         import Tkinter
         ```
-    - If yes, add these modules to [line 22](https://github.com/RuizTheRuler/Assignment-Template-2/blob/3d95062b925091355e3e1db65d6fe817bbcf28b3/.github/workflows/workflow.yml#L22) of the workflow.yml file
+    - If yes, add these modules to [line 22](**/workflow.yml#L22) of the workflow.yml file
         ```
         pip install pytest flake8 sys NumPy Tkinter
         ```
