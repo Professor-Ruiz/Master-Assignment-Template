@@ -1,40 +1,34 @@
-# Lesson 10 Programming Assignment
+# Lesson X Programming Assignment
 
 > ![](/assets/crumbl.jpeg)
 >
-> Every week, Crumbl rotates at least three specialty cookies on their menu. They'd like to display these cookies alphabetically on their menu. Write a program to help them out with this.
+> `< A cute little story >`
 
 ## Objectives
-- Practice using conditionals to solve problems.
-- Learn how to create flowcharts, and upload them in your assignment repositories.
+- Apply the programming concepts of `x, x, and x` to formulate a working solution to a problem.
+- Recognize, Identify, Select, Analyze, Differentiate, Distinguish, Diagram, Examine, Outline, Subdivide, Understand, Demonstrate, Illustrate, Represent, Interpret, Evaluate, Apply, Assess, Chart, Construct, Develop, Implement, Prepare, Provide, Compute, Contribute, Determine, Establish, Include, Produce, Show, Combine, Design, Make, Plan, Compose, Create, Devise, Formulate, 
 
 ## Directions
-- Your program should accept three strings in any order, and print them in ascending alphabetical order to the console. The only data types allowed are strings (no lists). You cannot use looping or any predefined function or method.
+- Design a program that `<...>`
 
-- Before writing any code, develop your algorithm. Create a flowchart to represent your program logic.
+- Develop your algorithm before writing any code. Create a flowchart to represent your logic.
     - [diagrams.net](https://app.diagrams.net/) is a free and easy tool you can use to create flowcharts. 
-    - I created an [instructional video](https://youtu.be/oy5nhA7QpNI) for creating and submitting flowcharts.
+    - I created an [instructional video](https://youtu.be/oy5nhA7QpNI) outlining how to create and submit flowcharts.
     
-- The user prompt and output should be formatted exactly as the example below:
+- Format the `< user prompt > < output > < file >` exactly as shown in the example below:
   ```
-  Enter flavor one: Snickerdoodle Cupcake
-  Enter flavor two: Biscoff Lava
-  Enter flavor three: Pumpkin Chocolate Chip
-
-  Biscoff Lava
-  Pumpkin Chocolate Chip
-  Snickerdoodle Cupcake
+  <format example>
   ```
   
 - Test your program by running it several times with different inputs. Verify your algorithm is correct by checking the program output.
 
-- Add the required docstring to the top of your program:
+- Add the docstring below to the top of your program.
   ```
   '''
-  Assignment: Lesson 10 Programming Assignment
+  Assignment: Lesson X Programming Assignment
   Author: Jane Doe
   Due Date: MM/DD/YYYY
-  CS-1030; Professor Bianca Ruiz
+  CS-XXXX; Professor Bianca Ruiz
 
   Description:
   <Description of program goes here>
@@ -42,20 +36,20 @@
   ```
   
 ## Submission
-1. Complete and submit your program as outlined in the video [GitHub Assignments](https://youtu.be/SrJ_c8S1_D8)
+1. Complete and submit your program as outlined in this [instructional video](https://youtu.be/SrJ_c8S1_D8)
 
-2. Add ***lesson10flowchart.jpg*** to the ***flowchart*** directory as outlined in the video [Creating and uploading flowcharts to GitHub](https://youtu.be/oy5nhA7QpNI)
+2. Add your flowchart to the ***flowchart*** directory as outlined in this [instructional video](https://youtu.be/oy5nhA7QpNI)
     
 ## Grading
-There is a total of 20 points possible for this assignment:
+You can earn up to 20 points for this assignment. Be sure to check your submission against this rubric to maximize your score.
 
-| Criteria | Points Possible |
+| Criteria | Points |
 |-|-|
 | Docstring:<br>- is at the top of the program, <br>- is formatted exactly as the example, and<br>- contents have been edited by student. | 1 |
-| Submission:<br>Assignment files were submitted properly via GitHub:<br>- exercise.py<br>- lesson10flowchart.jpg | 1 |
-| Identifiers:<br>- use snake case, and<br>- are descriptive of the data it is assigned.<br>[PEP8 Naming Conventions](https://www.python.org/dev/peps/pep-0008/#naming-conventions) | 1 |
+| Submission:<br>All files were submitted properly via GitHub | 1 |
+| Identifiers:<br>- use snake case, and<br>- are descriptive of the data it represents.<br>[PEP8 Naming Conventions](https://www.python.org/dev/peps/pep-0008/#naming-conventions) | 1 |
 | Formatting:<br>- follows the example in the directions. | 1 |
 | Comments:<br>- implemented in program<br>- clearly describe code purpose<br>- follow PEP8 guidelines<br>[PEP8 Comments](https://www.python.org/dev/peps/pep-0008/#comments) | 1 |
 | Flowchart:<br>- is clear and readable,<br>- follows the logic of the program,<br>- uses the correct shapes, and<br>- is saved in jpg format<br>[Creating and Submitting Flowcharts](https://youtu.be/oy5nhA7QpNI) | 3 |
-| Test Case 1:<br>- Input: <br>     Snickerdoodle Cupcake<br>     Biscoff Lava<br>     Pumpkin Chocolate Chip<br>- Output:<br>     Biscoff Lava<br>     Pumpkin Chocolate Chip<br>     Snickerdoodle Cupcake | 6 |
-| Test Case 2:<br>- Input:<br>     Lemon Glaze<br>     Confetti Cake<br>     Reese's Peanut Butter Chip<br>- Output:<br>     Confetti Cake<br>     Lemon Glaze<br>     Reese's Peanut Butter Chip | 6 |
+| Test Case 1:<br>--> Input: <br>     `XXX`<br><-- Output: <br>     `XXX`<br> | 6 |
+| Test Case 2:<br>--> Input: <br>     `XXX`<br><-- Output: <br>     `XXX`<br> | 6 |
