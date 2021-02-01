@@ -1,32 +1,32 @@
 # TODO
 
+To use this template for your GitHub assignments, follow these steps in order:
+
 1. [Clone this Master-Assignment-Template](#clone-this-master-assignment-template)
 2. [Create custom assignment repositories](#create-custom-assignment-repositories)
 3. [Create assignments in GitHub Classroom](#create-assignments-in-github-classroom)
 
 ## Clone this Master_Assignment_Template
-1. Click the ***Code*** button in the upper right corner of this repository
+1. Click the ***Code*** button in the upper right corner of this repository's [code directory](https://github.com/Professor-Ruiz/Master-Assignment-Template)
 
 2. Copy the Clone URL that appears in the pop-up text box
-    - Example: https://github.com/RuiztTheRuler/Master-Assignment-Template
+    - Example: https://github.com/Professor-Ruiz/Master-Assignment-Template.git
     
-3. Create yourself a new repository
-    -  At the very top of the page, you'll see the following text:
-        - *A repository contains all project files, including the revision history. Already have a project repository elsewhere? Import a repository.*
-    - Click the link ***Import a repository***
+3. Create a clone repository
+    - Navigate to https://github.com/new/import
     - Paste the clone URL in the text box
     - Make sure your organization is the repository owner (not your GitHub username)
     - Name your repository ***Master-Assignment-Template**, then click ***Begin Import***
     
 4. Make ***Master-Assignment-Template*** a template
-    - Open Master-Assignment-Template
+    - Open your ***Master-Assignment-Template*** repository
     - Click the ***Settings*** menu in the upper right corner
     - Click the ***Template repository*** option
     - A green check mark to the right indicates success
      
 4. Now you have your own copy of ***Master-Assignment-Template***!
-    - You'll use this each time you make a new assignment repository
-    - Don't make changes to your ***Master-Assignment-Template***
+    - You'll use this as a template each time you make a new assignment repository
+    - Don't make changes to your copy of ***Master-Assignment-Template***
 
 ## Create custom assignment repositories
 1. Create a new repository
