@@ -1,4 +1,4 @@
-# TODO
+# Using this template
 
 To use this template for your GitHub assignments, follow these steps in order:
 
