@@ -101,14 +101,9 @@
     Run command:    python3 src/exercise.py
     Language:       Python 3
     ```
-    - Repl.it's Free accounts do not allow students to import assignments (repositories) set to "Private" visibility. However, When assignments are set to "public" visibility, students will have access to each other's solutions. This may cause issues with plagiarism.
-    - In order for your students to successfuly use Repl.it for a GitHub assignment, you must either:
-        - Make the assignment's repository visibility "Public", or 
-        - Keep the visibility "Private", and either
-            - Direct your students to enroll in the "GitHub Student Developer Pack", then sign up for Repl.it's Hacker plan for 6 months free, or
-            - Direct your students to pay for Repl.it's Hacker plan.
-    - I made a three-point assignment for my students to clain their free "Hacker" level Repl.it accounts. I made [this video](https://youtu.be/ZqzVN47oVr0) to walk them through the process.
+7. Repl.it's Free accounts do not allow students to import assignments (repositories) set to "Private" visibility. However, When assignments are set to "public" visibility, students will have access to each other's solutions. This may cause issues with plagiarism.
+    - I made a quick three-point assignment for my students to claim their free "Hacker" level Repl.it accounts. I made [this video](https://youtu.be/ZqzVN47oVr0) to walk them through the process.
          
-7. Click ***Continue***
+8. Click ***Continue***
 
-8. DO NOT Add any tests on this page! Click ***Create assignment***
+9. DO NOT Add any tests on this page! Click ***Create assignment***
