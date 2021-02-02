@@ -107,6 +107,7 @@
         - Keep the visibility "Private", and either
             - Direct your students to enroll in the "GitHub Student Developer Pack", then sign up for Repl.it's Hacker plan for 6 months free, or
             - Direct your students to pay for Repl.it's Hacker plan.
+    - I made a three-point assignment for my students to clain their free "Hacker" level Repl.it accounts. I made [this video](https://youtu.be/ZqzVN47oVr0) to walk them through the process.
          
 7. Click ***Continue***
 
