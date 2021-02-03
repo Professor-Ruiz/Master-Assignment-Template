@@ -80,6 +80,12 @@
         - Exclude any input() function prompts
         - Exclude any blank lines (newline characters, \n)
         - DO NOT include user prompts from any `input()` functions in the output string.
+    - Example:
+        31. ```inp_1 = ['8', '3']```
+        32. ```out_1 = ['eight', 'three']```
+        33. 
+        34. ```inp_2 = ['4', '1']```
+        35. ```inp_3 = ['four', 'one']
     - Make sure the [rubric](README.md#grading) in the README.md file lists these two tests as the test cases.
     
 5. Delete this file (```TEACHER_README.md```) from this new assignment repository
