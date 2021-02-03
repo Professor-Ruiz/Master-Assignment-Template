@@ -48,7 +48,7 @@ def test_capture_stdout(capsys, test_input, expected):
     out, err = capsys.readouterr()
     
     # Reformat program output as a list of strings.
-    # Each line of output will be a list element, excluding blank newlines.
+    # Each line of output will be a list element, excluding all newline characters.
     out = out.strip().split('\n')
     out = [i for i in out if i]
     
