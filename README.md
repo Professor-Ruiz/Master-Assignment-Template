@@ -1,9 +1,5 @@
 # Lesson X Programming Assignment
 
-> ![](/assets/crumbl.jpeg)
->
-> `< A cute little story >`
-
 ## Objectives
 - Formulate a working solution to a business problem that incorporates the use of  `x, x, and x`.
 - Construct a flowchart that demonstrates the logic of an algorithm.
