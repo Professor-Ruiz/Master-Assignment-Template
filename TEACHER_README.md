@@ -82,7 +82,7 @@
         - DO NOT include user prompts from any `input()` functions in the output string.
     - Example:
         ```
-        31 inp_1  = ['8', '3']
+        31 inp_1 = ['8', '3']
         32 out_1 = ['eight', 'three']
         33
         34 inp_2 = ['4', '1']
