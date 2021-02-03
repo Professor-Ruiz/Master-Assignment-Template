@@ -79,7 +79,6 @@
         - Each string should correspond to a line of output on the console
         - Exclude any input() function prompts
         - Exclude any blank lines (newline characters, \n)
-        - DO NOT include user prompts from any `input()` functions in the output string.
     - Example:
         ```
         31 inp_1 = ['8', '3']
