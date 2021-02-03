@@ -12,7 +12,7 @@
 ## Directions
 - Design a program that `<...>`
 
-- Develop your algorithm before writing any code. Create a flowchart to represent your logic.
+- Develop your algorithm before writing any code. Create a flowchart to illustrate your logic.
     - [diagrams.net](https://app.diagrams.net/) is a free and easy tool you can use to create flowcharts. 
     - I created an [instructional video](https://youtu.be/oy5nhA7QpNI) outlining how to create and submit flowcharts.
     
