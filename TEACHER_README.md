@@ -67,16 +67,19 @@
         pip install pytest flake8 sys NumPy Tkinter
         ```
     
-4. Update [lines 15-19](/tests/test_exercise.py#L15) of test_exercise.py to reflect the new assignment's test cases:
+4. Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py to reflect the new assignment's test cases:
 
     - This pytest runs two input/output tests.
-    - The inputs on lines [15](/tests/test_exercise.py#L15) & [18](/tests/test_exercise.py#L18) should be a list, even if it's just one element.
-        - Example 1: ["Snickerdoodle Cupcake","Biscoff Lava","Pumpkin Chocolate Chip"]
-        - Example 2: [5]
-    - The outputs on line [16](/tests/test_exercise.py#L16) & [19](/tests/test_exercise.py#L19) should be in string form, and include \\n characters when needed.
-        - Example 1: "\nBiscoff Lava\nPumpkin Chocolate Chip\nSnickerdoodle Cupcake\n"
-        - Example 2: "6"
-    - DO NOT include user prompts from any `input()` functions in the output string.
+    - The inputs should be a list of strings:
+        - even if only 1 value
+        - even if numbers
+        - Exclude any input() function prompts.
+        - Exclude newline characters (\n)
+    - The outputs should be a list of strings:
+        - Each string should correspond to a line of output on the console
+        - Exclude any input() function prompts
+        - Exclude any blank lines (newline characters, \n)
+        - DO NOT include user prompts from any `input()` functions in the output string.
     - Make sure the [rubric](README.md#grading) in the README.md file lists these two tests as the test cases.
     
 5. Delete this file (```TEACHER_README.md```) from this new assignment repository
