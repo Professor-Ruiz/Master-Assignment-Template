@@ -5,7 +5,8 @@
 > `< A cute little story >`
 
 ## Objectives
-- Formulate a working solution to a business problem that incorporates the us of  `x, x, and x`.
+- Formulate a working solution to a business problem that incorporates the use of  `x, x, and x`.
+- Create a flowchart that represents the logic of an algorithm.
 - Recognize, Identify, Select, Analyze, Differentiate, Distinguish, Diagram, Examine, Outline, Subdivide, Understand, Demonstrate, Illustrate, Represent, Interpret, Evaluate, Apply, Assess, Chart, Construct, Develop, Implement, Prepare, Provide, Compute, Contribute, Determine, Establish, Include, Produce, Show, Combine, Design, Make, Plan, Compose, Create, Devise, Formulate, 
 
 ## Directions
