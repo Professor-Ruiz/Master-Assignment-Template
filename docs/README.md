@@ -39,6 +39,8 @@
 4. Make your assignment repository a template.
 
 5. Update the [README.md](/README.md) file. It is the directions the students will see when they accept the assignment.
+
+    ![student directions](assets/readme-student-directions.png)
     
 6. Check [exercise.py](/src/exercise.py) to see if the student's boiler-plate code needs to be updated for this new assignment.
     - Do you need to add a user-defined function stub?
