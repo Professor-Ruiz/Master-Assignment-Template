@@ -122,7 +122,7 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 
 - Leave the value of ```inp_1``` on [line 9](../tests/test_exercise.py#L9) as an empty list
     
-- Assign the value to the expected program output to ```out_1``` on line 10
+- Assign the value of the expected program output to ```out_1``` on line 10
   - It should be a list of string(s) 
   - Each string in the list should correspond to a complete line of output on the console.
   - Exclude any ```input()``` function prompts (only include ```print()``` function output)
@@ -161,7 +161,7 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 - Assign the test strings to ```out_1``` and ```out_2```
     - They should each be a single string enclosed in quotes.
     
-- Delete lines 28-32. This code reformats the captured program output, it will break our test.
+- Delete lines 28-32. This code reformats the captured program output, it will break your test.
 
 - change the assert statement to ```assert expected in out```
     
@@ -174,10 +174,10 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
   13 out_1 = '5'
   ..
   ..
-  26 out, err = capsys.readouterr()
+  26     out, err = capsys.readouterr()
   27
-  28 # Test if the expected output was in the actual output:
-  29 assert expected in out
+  28     # Test if the expected output was in the actual output:
+  29     assert expected in out
   ```
   <br>
 </details>
