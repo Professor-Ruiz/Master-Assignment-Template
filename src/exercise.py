@@ -1,6 +1,6 @@
 def main():
     # delete the 'pass' command, then begin coding below:
-    print('hello')
+    pass
 
 
     
