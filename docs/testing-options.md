@@ -37,7 +37,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 
 <br>
 
-- Assign the value of the program input to the variable ```inp_1``` on line 31
+- Assign the value of the program input to the variable ```inp_1``` on [line 31]() of test_exercise.py
   - It should be a list of string(s) 
   - Exclude any input() function prompts.
   - Exclude newline characters (```\n```).
@@ -48,25 +48,18 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   - Exclude any ```input()``` function prompts (only include ```print()``` function output)
   - Exclude newline characters and blank lines (\n).
 
-- Example:
+- Delete lines 34-36: ```inp_2``` and ```inp_3```
+  
+- At (now) line 35, delete ```, (inp_2, out_2)``` from the decorator.
+  
+- Finished Example:
   ```Python
   31 inp_1 = ['1']
   32 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
-  ```
-
-- Delete [lines 34-36](/tests/test_exercise.py#L34) of test_exercise.py:
-  ```Python
-  34 inp_2 = []
-  35 out_2 = []
-  36
-  ```
-  
-- At (now) line 35, delete ```, (inp_2, out_2)``` from the decorator. It should now look like this:
-  ```Python
-  34 # run the test function for each input/output pair
+  33   34 # run the test function for each input/output pair
   35 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
   ```
-  
+   
 <br>
 
 </details>
