@@ -23,7 +23,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   ```Python
   31 inp_1 = ['1']
   32 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
-  33
+  33 
   34 inp_2 = ['2']
   35 out_2 = ['2 plus 1 is 3', '2 plus 2 is 4', '2 plus 3 is 5']
   ```
@@ -56,7 +56,8 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   ```Python
   31 inp_1 = ['1']
   32 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
-  33   34 # run the test function for each input/output pair
+  33   
+  34 # run the test function for each input/output pair
   35 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
   ```
    
