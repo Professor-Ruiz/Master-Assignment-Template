@@ -39,7 +39,7 @@ I expect all users of Master Assignment Template to abide by this Code of Conduc
 
 ## 10. Contact info
 
-@RuizTheRuler @Professor-Ruiz
+biancakayleneruiz@gmail.com, @RuizTheRuler, @Professor-Ruiz
 
 ## 11. License and attribution
 
