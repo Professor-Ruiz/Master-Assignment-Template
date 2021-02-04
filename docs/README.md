@@ -20,8 +20,6 @@
     - Click the ***Settings*** menu in the upper right corner
     - Click the ***Template repository*** option
     - A green check mark to the right indicates success!
-    - ![](assets/settings-tab.png)
-    - ![](assets/template-repository.png)
 
 ## Create an assignment repository
 
