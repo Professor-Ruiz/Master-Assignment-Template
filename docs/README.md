@@ -77,8 +77,9 @@
     Run command:    python3 src/exercise.py
     Language:       Python 3
     ```
+    ![repl.it configuration](assets/replit-configuration.png)
     
-4. Do not use any automatic grading tests for the assignment.
+4. Do not use any additional testing or automatic grading for the assignment.
 
 ## A note on repl.it
 > Repl.it's Free accounts do not allow students to import assignments (repositories) set to "Private" visibility. However, When assignments are set to "public" visibility, students will have access to each other's solutions. This may cause issues with plagiarism.
