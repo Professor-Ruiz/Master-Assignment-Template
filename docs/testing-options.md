@@ -62,7 +62,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   ```
 
 </details>
-<br>
+
 <br>
 <details>
   <summary><b>Three nput/output tests</b></summary>
@@ -105,8 +105,6 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 
 </details>
 
-
-<br>
 <br>
 <details>
   <summary>One output test, no input</summary>
