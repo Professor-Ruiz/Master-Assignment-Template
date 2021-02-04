@@ -1,7 +1,5 @@
 # Testing Options
 
-> I've included a few basic set-ups to test your student submissions. I've tried to make them very simple to select and implement. 
-
 <br>
 <details>
   <summary><b>DEFAULT:</b> Two input/output tests</summary>
