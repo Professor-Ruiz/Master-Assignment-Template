@@ -1,5 +1,5 @@
 def main():
-    # delete the 'pass' command, then begin coding below:
+    # delete the 'pass' statement, then begin coding below:
     pass
 
 
