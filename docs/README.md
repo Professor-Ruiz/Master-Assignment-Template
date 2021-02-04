@@ -92,7 +92,7 @@
         ```
     - Make sure the [rubric](/README.md#grading) in the README.md file lists these two tests as the test cases.
     
-5. Delete the entire [docs folder](/docs) along with both its files ([README.md](/docs/README.md) & [_config.yml](/docs/_config.yml)) from your assignment template. It includes this readme file intended for teachers only, and the config file makes the public webpage pretty :)
+5. Delete the entire [docs folder](/docs) along with both its files (README.md & _config.yml) from your assignment template. It includes this readme file intended for teachers only, and the config file makes the public webpage pretty :)
         
 ## Create an assignment in GitHub Classroom
 > Once you've created an assignment repository template, you'll want to create an assignment.
