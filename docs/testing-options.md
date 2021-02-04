@@ -1,5 +1,8 @@
 # Testing Options
 
+> Hot Tip:
+> Put your solution code in [exercise.py](../src/exercise.py) before you begin updating the tests. That way, when you commit your changes to [exercise_test.py](../tests/test_exercise.py), you'll immediately see if it passes the test. Just make sure to delete the solution before you make an assignment!
+
 <br>
 <details>
   <summary><b>Two input/output tests (default)</b></summary>
