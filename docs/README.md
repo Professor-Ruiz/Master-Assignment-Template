@@ -53,7 +53,7 @@
 8. Set up the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md).
     - Link didn't work? [Try this one](https://github.com/Professor-Ruiz/master-assignment-template/blob/main/docs/testing-options.md)
 
-9. Delete the [license.md](../LICENSE.md), along with the entire [docs folder](/docs) and all the files contained therein. These files are only meant for teachers, and are not meant to be included in any assignment you make for your students.
+9. Delete the [license.md](../LICENSE.md) file, along with the entire [docs folder](/docs) and all the files contained therein. These files are only meant for teachers, and are not meant to be included in any assignment you make for your students.
         
 ## Create an assignment in GitHub Classroom
 > Once you've created an assignment repository template, you'll can create an assignment.
