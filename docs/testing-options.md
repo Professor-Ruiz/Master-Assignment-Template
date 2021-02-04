@@ -33,39 +33,6 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   ```
 </details>
 
-    
-4. <details><summary>Make your copy of <b>master-assignment-template</b> a template</summary>
-    <ul><li>Open your copy of <b>master-assignment-template</b></li>
-    <li>Click the <b>Settings</b> menu in the upper right corner</li>
-    <li>Click the <b>Template repository</b> option</li>
-    <li>A green check mark to the right indicates success</li></ul></details>
-     
-5. <details><summary>Now you have your own copy of <b>master-assignment-template</b>!</summary>
-    <ul><li>You'll use this as a template each time you make a new assignment repository</li>
-    <li>Don't make changes to your copy of <b>master-assignment-template</b></li></ul></details>
-</details>
 
 
-
-
-
-
-    - This pytest runs two input/output tests.
-    - The inputs should be a list of strings:
-        - even if only 1 value
-        - even if numbers
-        - Exclude any input() function prompts.
-        - Exclude newline characters (\n)
-    - The outputs should be a list of strings:
-        - Each string should correspond to a line of output on the console
-        - Exclude any input() function prompts
-        - Exclude any blank lines (newline characters, \n)
-    - Example:
-        ```
-        31 inp_1 = ['8', '3']
-        32 out_1 = ['eight', 'three']
-        33
-        34 inp_2 = ['4', '1']
-        35 out_2 = ['four', 'one']
-        ```
     - Make sure the [rubric](/README.md#grading) in the README.md file lists these two tests as the test cases.
