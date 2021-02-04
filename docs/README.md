@@ -19,10 +19,10 @@
     - Open your ***master-assignment-template*** repository
     - Click the ***Settings*** tab in the upper right corner
     
-    ![Settings tab](assets/settings-tab.png)
+        - ![Settings tab](assets/settings-tab.png)
     - Click the ***Template repository*** checkbox
     
-    ![Template repository check box](assets/template-repository.png)
+        - ![Template repository check box](assets/template-repository.png)
 
 ## Create an assignment repository
 
