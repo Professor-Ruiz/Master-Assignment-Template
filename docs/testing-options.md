@@ -31,6 +31,15 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   ```
 </details>
 
+<br>
+<details>
+  <summary>One test, no input</summary>
+
+> If your student's program doesn't accept any user input, you should choose this option.
+    
+<br>
+
+</details>
 
 
-    - Make sure the [rubric](/README.md#grading) in the README.md file lists these two tests as the test cases.
+
