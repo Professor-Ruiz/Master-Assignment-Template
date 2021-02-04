@@ -47,21 +47,19 @@
     
       ![exercise.py](assets/exercise-file.png)
     
-7. Will students need to import any modules into this program?
+7. Will students need to import any modules into their program?
     - Example:
         ```
         import sys
         import NumPy
         import Tkinter
         ```
-    - If yes, add these modules to [line 22](/.github/workflows/workflow.yml#L22) of the workflow.yml file
+    - If yes, add those modules to [line 22](/.github/workflows/workflow.yml#L22) of the workflow.yml file
         ```
         pip install pytest flake8 sys NumPy Tkinter
         ```
 
 8. Choose the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md) (Here's [another link](https://github.com/Professor-Ruiz/master-assignment-template/blob/main/docs/testing-options.md)).  I've already pre-written the tests so they'll run automatically with each student submission.
-    
-      ![Testing Options](assets/testing-options.png)
 
 9. Delete the [docs folder](/docs) and all the files contained therein (including this file). These files are only meant for teachers, and are not meant to be included in any assignment you make for your students.
         
@@ -73,10 +71,7 @@
 2. The Run command is ```python3 src/exercise.py```
 
 3. If you want your students to use Repl.it for this assignment, enter this Repl.it configuration:
-    ```
-    Run command:    python3 src/exercise.py
-    Language:       Python 3
-    ```
+
     ![repl.it configuration](assets/replit-configuration.png)
     
 4. Do not use any additional testing or automatic grading for the assignment.
