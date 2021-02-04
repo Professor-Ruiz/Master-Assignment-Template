@@ -48,7 +48,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   - Exclude any ```input()``` function prompts (only include ```print()``` function output)
   - Exclude newline characters and blank lines (\n).
 
-- Delete lines 34-36: ```inp_2``` and ```inp_3```
+- Delete lines 34-36: ```inp_2``` and ```out_2```
   
 - At (now) line 35, delete ```, (inp_2, out_2)``` from the decorator.
   
@@ -113,7 +113,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
     
 <br>
 
-- Leave the value of ```inp_1``` on [line 31](./tests/test_exercise.py) as an empty list
+- Leave the value of ```inp_1``` on [line 31](./tests/test_exercise.py) as an empty string
     
 - Assign the value to the expected program output to ```out_1``` on line 32
   - It should be a list of string(s) 
@@ -139,42 +139,39 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 <br>
 <br>
 <details>
-  <summary><b>Test for a single string in the output</b></summary>
+  <summary><b>Test for a single string in the program output</b></summary>
 
-> If your student's program doesn't accept any user input, you should choose this option.
+> This test will execute your student's program twice. You supply the input and the test string. The test captures the program output in it's entirety. Then it tests if the given string is in the program output.
     
 <br>
 
-import pytest
-import src.exercise
-
-inp_1 = [5,6]
-out_1 = "The sum of both numbers is 11"
-
-inp_2 = [1,1]
-out_2 = "The sum of both numbers is 2"
-
-# run the test function for each input/output pair
-@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2)])
-def test_capture_stdout(capsys, test_input, expected):
-
-    # Load the test input for the program execution:
-    def mock_input(s):
-        return test_input.pop(0)
-    src.exercise.input = mock_input
+- Assign the program inputs to ```inp_1``` and ```inp_2```:
+  - They should be lists of string(s) 
+  - Exclude any input() function prompts.
+  - Exclude newline characters (```\n```).
     
-    # Execute the student program, and capture the output (print statements):
-    src.exercise.main()
-    out, err = capsys.readouterr()
-
-    # Reformat program output as a list of strings.
-    # Each line of output will be a list element, excluding all newline characters.
-    out = out.strip().split('\n')
-    out = [i for i in out if i]
+- Assign the test strings to ```out_1``` and ```out_2```
+    - They should each be a single string enclosed in quotes.
     
-    # Test the actual program output against the anticipated program output:
-    assert expected in out
+- Delete lines 50 - 54. This code reformats the captured program output, we don't need it.
 
+- change the assert statement to ```assert expected in out```
+    
+- Finished Example:
+  ```Python
+  31 inp_1 = ['1', '1']
+  32 out_1 = '2'
+  33
+  34 inp_1 = ['2', '3']
+  35 out_1 = '5'
+  ..
+  ..
+  48 out, err = capsys.readouterr()
+  49
+  50 # Test if the expected output was in the actual output:
+  51 assert expected in out
+  ```
+  <br>
 </details>
 
 <br>
