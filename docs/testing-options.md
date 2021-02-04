@@ -14,7 +14,7 @@
 Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 
 - The inputs should be a list of strings.
-    - Exclude any input() function prompts.
+    - Exclude any ```input()``` function prompts.
     - Exclude newline characters (```\n```).
     
 - The outputs should be a list of strings.
@@ -42,7 +42,7 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 
 - Assign the value of the program input to the variable ```inp_1``` on [line 9](../tests/test_exercise.py#L9) of test_exercise.py
   - It should be a list of string(s) 
-  - Exclude any input() function prompts.
+  - Exclude any ```input()``` function prompts.
   - Exclude newline characters (```\n```).
     
 - Assign the value to the expected program output to the variable ```out_1``` on line 10
@@ -80,7 +80,7 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 
 - Assign the value of the program inputs to ```inp_1```, ```inp_2```, and ```inp_3```:
   - They should be a lists of string(s) 
-  - Exclude any input() function prompts.
+  - Exclude any ```input()``` function prompts.
   - Exclude newline characters (```\n```).
     
 - Assign the value to the expected program output to ```out_1```, ```out_2```, ```out_3```:
@@ -116,15 +116,15 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
     
 <br>
 
-- Leave the value of ```inp_1``` on [line 9](../tests/test_exercise.py#L9) as an empty string
+- Leave the value of ```inp_1``` on [line 9](../tests/test_exercise.py#L9) as an empty list
     
 - Assign the value to the expected program output to ```out_1``` on line 10
   - It should be a list of string(s) 
   - Each string in the list should correspond to a complete line of output on the console.
   - Exclude any ```input()``` function prompts (only include ```print()``` function output)
-  - Exclude newline characters and blank lines (\n).
+  - Exclude newline characters and blank lines (```\n```).
 
-- Delete lines 12-14: ```inp_2``` and ```inp_3```
+- Delete lines 12-14: ```inp_2``` and ```out_2```
   
 - At (now) line 13, delete ```, (inp_2, out_2)``` from the decorator.
   
@@ -151,13 +151,13 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 
 - Assign the program inputs to ```inp_1``` and ```inp_2```:
   - They should be lists of string(s) 
-  - Exclude any input() function prompts.
+  - Exclude any ```input()``` function prompts.
   - Exclude newline characters (```\n```).
     
 - Assign the test strings to ```out_1``` and ```out_2```
     - They should each be a single string enclosed in quotes.
     
-- Delete lines 28-32. This code reformats the captured program output, we don't need it.
+- Delete lines 28-32. This code reformats the captured program output, it will break our test.
 
 - change the assert statement to ```assert expected in out```
     
