@@ -113,7 +113,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
     
 <br>
 
-- Leave the value of ```inp_1``` on [line 31](./tests/test_exercise.py) as an empty string
+- Leave the value of ```inp_1``` on [line 31](./tests/test_exercise.py) as an empty list
     
 - Assign the value to the expected program output to ```out_1``` on line 32
   - It should be a list of string(s) 
