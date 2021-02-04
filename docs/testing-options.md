@@ -152,23 +152,23 @@ Update [lines 9-13](./tests/test_exercise.py#L9) of test_exercise.py
 - Assign the test strings to ```out_1``` and ```out_2```
     - They should each be a single string enclosed in quotes.
     
-- Delete lines 50 - 54. This code reformats the captured program output, we don't need it.
+- Delete lines 28-32. This code reformats the captured program output, we don't need it.
 
 - change the assert statement to ```assert expected in out```
     
 - Finished Example:
   ```Python
-  31 inp_1 = ['1', '1']
-  32 out_1 = '2'
-  33
-  34 inp_1 = ['2', '3']
-  35 out_1 = '5'
+  09 inp_1 = ['1', '1']
+  10 out_1 = '2'
+  11
+  12 inp_1 = ['2', '3']
+  13 out_1 = '5'
   ..
   ..
-  48 out, err = capsys.readouterr()
-  49
-  50 # Test if the expected output was in the actual output:
-  51 assert expected in out
+  26 out, err = capsys.readouterr()
+  27
+  28 # Test if the expected output was in the actual output:
+  29 assert expected in out
   ```
   <br>
 </details>
