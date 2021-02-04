@@ -62,7 +62,7 @@
 8. Set up the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md).
     - Link didn't work? [Try this one](https://github.com/Professor-Ruiz/master-assignment-template/blob/main/docs/testing-options.md)
     
-    ![Testing Options](assets/testing-options.png)
+      ![Testing Options](assets/testing-options.png)
 
 9. Delete the entire [docs folder](/docs) and all the files contained therein (including this file). These files are only meant for teachers, and are not meant to be included in any assignment you make for your students.
         
