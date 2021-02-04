@@ -2,7 +2,7 @@
 
 <br>
 <details>
-  <summary><b>DEFAULT:</b> Two input/output tests</summary>
+  <summary>Two input/output tests (default)</summary>
 
 > This test will execute your student's program twice. You supply the input and expected output for each execution. It captures the program output in it's entirety.
     
@@ -29,6 +29,46 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   inp_2 = ['2']
   out_2 = ['2 plus 1 is 3', '2 plus 2 is 4', '2 plus 3 is 5']
   ```
+</details>
+
+<br>
+<details>
+  <summary>One input/output test</summary>
+
+> Remove the second test in the file by following the directions below:
+
+<br>
+
+- Delete [lines 34-36](/tests/test_exercise.py#L34) of test_exercise.py:
+  ```
+  34 inp_2 = []
+  35 out_2 = []
+  36
+  ```
+  
+- At (now) line 35, delete ```, (inp_2, out_2)``` from the decorator. It should now look like this:
+  ```
+  34 # run the test function for each input/output pair
+  35 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
+  ```
+  
+- Assign the value of the program input to the variable '''inp_1''' on line 31
+  - It should be a list of string(s) 
+   - Even if it's only one input.
+   - Even if it is a numeric value.
+  - Exclude any input() function prompts.
+  - Exclude newline characters (\n).
+    
+- Assign the value to the expected program output to the variable ```out_1``` on line 32
+  - It should be a list of string(s) 
+   - Even if it's only one input.
+   - Even if it is a numeric value.
+  - Each string in the list should correspond to a complete line of output on the console.
+  - Exclude any ```input()``` function prompts (only include ```print()``` function output)
+  - Exclude newline characters and blank lines (\n).
+  
+<br>
+
 </details>
 
 <br>
