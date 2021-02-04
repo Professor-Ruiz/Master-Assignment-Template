@@ -6,7 +6,7 @@
    2. Create your own repository  
    3. Create an assignment in GitHub
 
-## Clone this repository (Master Assignment Template)
+## Clone this repository
 
 > You only need to complete this step one time. This will give you your own copy of this master template. You will use your own copy as a template each time you create an assignment repositories.
 
@@ -22,7 +22,7 @@
     
       ![Template repository check box](assets/template-repository.png)
 
-## Create an assignment repository
+## Create a new repository
 
 > For each assignment you'd like to create in GitHub classroom, create a new repository using your own copy of master-assignment-template as the template.
 
@@ -52,6 +52,7 @@
         pip install pytest flake8 sys NumPy Tkinter
         ```
 8. Choose the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md) (Here's [another link](https://github.com/Professor-Ruiz/master-assignment-template/blob/main/docs/testing-options.md)).  I've already pre-written the tests so they'll run automatically with each student submission.
+
 9. Delete the [docs folder](/docs) and all the files contained therein (including this file). These files are only meant for teachers, and are not meant to be included in any assignment you make for your students.
         
 ## Create an assignment in GitHub
