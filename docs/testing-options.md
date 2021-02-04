@@ -1,7 +1,10 @@
 # Testing Options
 
+> Choose an autograding option below. I've pre-made the the testing script, kept required edits to a minimum, and provided easy and explicit directions for you. This will allow you to spend much less time worrying with test creation for your assignments.
+> 
 > Hot Tip:
 > Put your solution code in [exercise.py](../src/exercise.py) before you begin updating the tests. That way, when you commit your changes to [exercise_test.py](../tests/test_exercise.py), you'll immediately see if it passes the test. Just make sure to delete the solution before you make an assignment!
+
 
 <br>
 <details>
