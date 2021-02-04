@@ -49,32 +49,10 @@
         ```
         pip install pytest flake8 sys NumPy Tkinter
         ```
-    
-4. Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py to reflect the new assignment's test cases:
 
-    - This pytest runs two input/output tests.
-    - The inputs should be a list of strings:
-        - even if only 1 value
-        - even if numbers
-        - Exclude any input() function prompts.
-        - Exclude newline characters (\n)
-    - The outputs should be a list of strings:
-        - Each string should correspond to a line of output on the console
-        - Exclude any input() function prompts
-        - Exclude any blank lines (newline characters, \n)
-    - Example:
-        ```
-        31 inp_1 = ['8', '3']
-        32 out_1 = ['eight', 'three']
-        33
-        34 inp_2 = ['4', '1']
-        35 out_2 = ['four', 'one']
-        ```
-    - Make sure the [rubric](/README.md#grading) in the README.md file lists these two tests as the test cases.
-    
-5. Need different testing options? Open [this page](/docs/testing-options.md)
+8. Set up the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md).
 
-6. Delete the entire [docs folder](/docs) along with all the files inside it (including this file). These files are only meant for teachers, and are not meant to be included in any assignment you make for your students.
+9. Delete the entire [docs folder](/docs) along with all the files inside it (including this file). These files are only meant for teachers, and are not meant to be included in any assignment you make for your students.
         
 ## Create an assignment in GitHub Classroom
 > Once you've created an assignment repository template, you'll can create an assignment.
