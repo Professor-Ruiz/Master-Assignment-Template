@@ -15,7 +15,7 @@
 2. Name your repository, then click ***Begin Import***
     - Make sure your organization is the repository owner (not your GitHub username)
     
-4. Make your copy of ***master-assignment-template*** a template
+4. Make your copy of ***master-assignment-template*** a template:
     - Open your ***master-assignment-template*** repository
     - Click the ***Settings*** tab in the upper right corner:
     
