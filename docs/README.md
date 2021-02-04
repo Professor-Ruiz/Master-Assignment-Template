@@ -15,10 +15,10 @@
 1. Click the ***Code*** button in the upper right corner of this repository's [code directory](https://github.com/Professor-Ruiz/master-assignment-template) (to the left of the green "Use this template" button).
 
 2. Copy the Clone URL that appears in the pop-up text box
-    - Example: https://github.com/Professor-Ruiz/master-assignment-template.git
+    - Example: [https://github.com/Professor-Ruiz/master-assignment-template.git](https://github.com/Professor-Ruiz/master-assignment-template.git)
     
 3. Create a clone repository
-    - Navigate to https://github.com/new/import
+    - Navigate to [https://github.com/new/import](https://github.com/new/import)
     - Paste the clone URL in the text box
     - Make sure your organization is the repository owner (not your GitHub username)
     - Name your repository ***master-assignment-template***, then click ***Begin Import***
@@ -36,7 +36,7 @@
 ## Create an assignment repository
 > For each assignment you'd like to create in GitHub classroom, create a new repository using your copy of master-assignment-template as it's template.
 
-1. Navigate to https://github.com/new
+1. Navigate to [https://github.com/new](https://github.com/new)
 
 2. In the pull-down menu with the text ***No Template***, find your ***master-assignment-template*** repository
 
@@ -96,7 +96,7 @@
 ## Create an assignment in GitHub Classroom
 > Once you've created an assignment repository template, you'll want to create an assignment.
 
-1. Navigate to https://classroom.github.com/classrooms
+1. Navigate to [https://classroom.github.com/classrooms](https://classroom.github.com/classrooms)
 
 2. Open the relevant Classroom.
 
