@@ -11,8 +11,6 @@
 Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 
 - The inputs should be a list of strings.
-    - Even if it's only one input.
-    - Even if it is a numeric value.
     - Exclude any input() function prompts.
     - Exclude newline characters (\n).
     
@@ -23,11 +21,11 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
     
 - Example:
   ```Python
-  inp_1 = ['1']
-  out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
-
-  inp_2 = ['2']
-  out_2 = ['2 plus 1 is 3', '2 plus 2 is 4', '2 plus 3 is 5']
+  31 inp_1 = ['1']
+  32 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
+  33
+  34 inp_2 = ['2']
+  35 out_2 = ['2 plus 1 is 3', '2 plus 2 is 4', '2 plus 3 is 5']
   ```
 </details>
 
@@ -54,18 +52,21 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   
 - Assign the value of the program input to the variable '''inp_1''' on line 31
   - It should be a list of string(s) 
-   - Even if it's only one input.
-   - Even if it is a numeric value.
   - Exclude any input() function prompts.
   - Exclude newline characters (\n).
     
 - Assign the value to the expected program output to the variable ```out_1``` on line 32
   - It should be a list of string(s) 
-   - Even if it's only one input.
-   - Even if it is a numeric value.
   - Each string in the list should correspond to a complete line of output on the console.
   - Exclude any ```input()``` function prompts (only include ```print()``` function output)
   - Exclude newline characters and blank lines (\n).
+
+- Example:
+- Example:
+  ```Python
+  31 inp_1 = ['1']
+  32 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
+  ```
   
 <br>
 
