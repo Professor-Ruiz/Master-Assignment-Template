@@ -59,14 +59,14 @@
         pip install pytest flake8 sys NumPy Tkinter
         ```
 
-8. Set up the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md). (Here's [another link](https://github.com/Professor-Ruiz/master-assignment-template/blob/main/docs/testing-options.md)) I've already pre-written them so they'll run automatically with each student submission.
+8. Choose the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md) (Here's [another link](https://github.com/Professor-Ruiz/master-assignment-template/blob/main/docs/testing-options.md)).  I've already pre-written the tests so they'll run automatically with each student submission.
     
       ![Testing Options](assets/testing-options.png)
 
 9. Delete the [docs folder](/docs) and all the files contained therein (including this file). These files are only meant for teachers, and are not meant to be included in any assignment you make for your students.
         
-## Create an assignment in GitHub Classroom
-> Once you've created an assignment repository template, you'll can create an assignment.
+## Create an assignment in GitHub
+> Once you've created an assignment repository template, you can create an assignment.
 
 1. When the ***Select a repository*** pull-down menu appears, find the assignment repository you just created.
 
@@ -81,6 +81,6 @@
 4. Do not use any automatic grading tests for the assignment.
 
 ## A note on repl.it
->Repl.it's Free accounts do not allow students to import assignments (repositories) set to "Private" visibility. However, When assignments are set to "public" visibility, students will have access to each other's solutions. This may cause issues with plagiarism.
+> Repl.it's Free accounts do not allow students to import assignments (repositories) set to "Private" visibility. However, When assignments are set to "public" visibility, students will have access to each other's solutions. This may cause issues with plagiarism.
 >
->I made a quick assignment for my students to claim their free "Hacker" level Repl.it accounts. I made [this video](https://youtu.be/ZqzVN47oVr0) to walk them through the process.
+> I made a quick assignment for my students to claim their free "Hacker" level Repl.it accounts. I made [this video](https://youtu.be/ZqzVN47oVr0) to walk them through the process.
