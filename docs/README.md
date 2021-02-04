@@ -11,26 +11,16 @@
 
 > You only need to complete this step one time. This will give you your own copy of the master template. You will use it as a template each time you create your own assignment repositories.
 
-1. Click the ***Code*** button in the upper right corner of this repository's [code directory](https://github.com/Professor-Ruiz/master-assignment-template) (to the left of the green "Use this template" button).
-
-2. Copy the Clone URL that appears in the pop-up text box
-    - Example: [https://github.com/Professor-Ruiz/master-assignment-template.git](https://github.com/Professor-Ruiz/master-assignment-template.git)
+1. Navigate to [https://github.com/Professor-Ruiz/master-assignment-template/generate](https://github.com/Professor-Ruiz/master-assignment-template/generate)
     
-3. Create a clone repository
-    - Navigate to [https://github.com/new/import](https://github.com/new/import)
-    - Paste the clone URL in the text box
+2. Name your repository ***master-assignment-template***, then click ***Begin Import***
     - Make sure your organization is the repository owner (not your GitHub username)
-    - Name your repository ***master-assignment-template***, then click ***Begin Import***
     
-4. Make ***master-assignment-template*** a template
+4. Make your copy of ***master-assignment-template*** a template
     - Open your ***master-assignment-template*** repository
     - Click the ***Settings*** menu in the upper right corner
     - Click the ***Template repository*** option
     - A green check mark to the right indicates success
-     
-4. Now you have your own copy of ***master-assignment-template***!
-    - You'll use this as a template each time you make a new assignment repository
-    - Don't make changes to your copy of ***master-assignment-template***
 
 ## Create an assignment repository
 > For each assignment you'd like to create in GitHub classroom, create a new repository using your copy of master-assignment-template as it's template.
