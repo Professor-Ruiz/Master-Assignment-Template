@@ -43,6 +43,8 @@
 
 4. Name your assignment repository, then click ***Create repository***
 
+5. From inside your new assignment repo, this file will be in the docs folder. Follow along from there.
+
 ### Update and edit your assignment repository
 > Once you've created an assignment repo using your copy of master-assignment-template as it's template, you'll want to update and edit some things. In this section, we'll check everything in the new assignment repo to make sure it reflects the assignment you want to create.
 
