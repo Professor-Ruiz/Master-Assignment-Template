@@ -43,7 +43,7 @@
 6. Check [exercise.py](/src/exercise.py) to see if the student's boiler-plate code needs to be updated for this new assignment.
     - Do you need to add a user-defined function stub?
     
-    ![exercise.py](assets/exercise-file.png)
+      ![exercise.py](assets/exercise-file.png)
     
 7. Will students need to import any modules into this program?
     - Example:
