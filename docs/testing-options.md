@@ -107,7 +107,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 
 <br>
 <details>
-  <summary>One output test, no input</summary>
+  <summary><b>One test, no input</b></summary>
 
 > This test will execute your student's program once. You supply the expected output. It captures the program output in it's entirety. You'll need to remove the second input/output pair in the file by following the directions below:
     
