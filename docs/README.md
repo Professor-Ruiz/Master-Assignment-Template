@@ -4,7 +4,6 @@
 
 1. [Clone this master-assignment-template](#clone-this-master-assignment-template)
 2. [Create an assignment repository](#create-an-assignment-repository)    
-    2.1. [Update and edit your assignment repository](#update-and-edit-your-assignment-repository)
 3. [Create an assignment in GitHub Classroom](#create-an-assignment-in-github-classroom)
 
 ## Clone this master-assignment-template
@@ -26,27 +25,20 @@
 
 > For each assignment you'd like to create in GitHub classroom, create a new repository using your copy of master-assignment-template as it's template.
 
-1. Navigate to [https://github.com/new](https://github.com/new)
+1. Open your copy of ***master-assignment-template***
 
-2. In the pull-down menu with the text ***No Template***, find your ***master-assignment-template*** repository
+2. Press the green ***Use this template*** button to generate a clone
 
-3. Make sure your organization is the repository owner (not your personal GitHub username) 
+3. Name your repository, then click ***Begin Import***
 
-4. Name your assignment repository, then click ***Create repository***
+4. Make your assignment repository a template.
 
-5. From inside your new assignment repo, this file will be in the docs folder. Follow along from there.
-
-### Update and edit your assignment repository
-> Once you've created an assignment repo using your copy of master-assignment-template as it's template, you'll want to update and edit some things. In this section, we'll check everything in the new assignment repo to make sure it reflects the assignment you want to create.
-
-1. Make your repository a Template repository
-
-1. Update the [README.md](/README.md) file. It is the directions the students will see when they accept the assignment.
+5. Update the [README.md](/README.md) file. It is the directions the students will see when they accept the assignment.
     
-2. Check [exercise.py](/src/exercise.py) to see if the student's boiler-plate code needs to be updated for this new assignment.
+6. Check [exercise.py](/src/exercise.py) to see if the student's boiler-plate code needs to be updated for this new assignment.
     - Do you need to add a user-defined function stub?
     
-3. Will students need to import any modules into this program?
+7. Will students need to import any modules into this program?
     - Example:
         ```
         import sys
@@ -85,17 +77,9 @@
 ## Create an assignment in GitHub Classroom
 > Once you've created an assignment repository template, you'll can create an assignment.
 
-1. Navigate to [https://classroom.github.com/classrooms](https://classroom.github.com/classrooms)
-
-2. Open the relevant Classroom.
-
-3. Click the green ***New assignment** button.
-
-4. Give the assignment a name, choose it's visibility, then click ***Continue***
-
-5. In the ***Select a repository*** pull-down menu, select the assignment repository you just created:
+1. In the ***Select a repository*** pull-down menu, select the assignment repository you just created:
     - Type in your organization name, followed by a forward slash /
-    - Scroll until you find the repository
+    - Scroll until you find the assignment repository
 
 6. If you want your students to use Repl.it for this assignment, enter this Repl.it configuration:
     ```
