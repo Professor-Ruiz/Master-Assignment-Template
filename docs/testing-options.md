@@ -17,7 +17,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 - The outputs should be a list of strings.
     - Each string in the list should correspond to a complete line of output on the console.
     - Exclude any ```input()``` function prompts (only include ```print()``` function output)
-    - Exclude newline characters and blank lines (\n).
+    - Exclude newline characters and blank lines (```Python \n```).
     
 - Example:
   ```Python
