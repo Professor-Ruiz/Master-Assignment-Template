@@ -18,7 +18,9 @@
 4. Make your copy of ***master-assignment-template*** a template
     - Open your ***master-assignment-template*** repository
     - Click the ***Settings*** menu in the upper right corner
+      ![](assets/settings-tab.png)
     - Click the ***Template repository*** option
+      ![](assets/template-repository.png)
     - A green check mark to the right indicates success
 
 ## Create an assignment repository
