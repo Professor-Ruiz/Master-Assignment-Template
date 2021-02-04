@@ -20,6 +20,7 @@
     - Click the ***Settings*** tab in the upper right corner
     - Click the ***Template repository*** checkbox
     - A green check mark to the right indicates success!
+    
     ![Settings tab](assets/settings-tab.png)
     ![Template repository check box](assets/template-repository.png)
 
