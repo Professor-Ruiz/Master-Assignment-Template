@@ -23,7 +23,7 @@
 
 ## Create an assignment repository
 
-> For each assignment you'd like to create in GitHub classroom, create a new repository using your copy of master-assignment-template as it's template.
+> For each assignment you'd like to create in GitHub classroom, create a new repository using your own copy of master-assignment-template as the template.
 
 1. Open your copy of ***master-assignment-template***
 
@@ -89,7 +89,7 @@
     
 4. Do not any any automatic grading tests for the assignment.
 
-# A note on repl.it
+# A note on repl.it:
 >Repl.it's Free accounts do not allow students to import assignments (repositories) set to "Private" visibility. However, When assignments are set to "public" visibility, students will have access to each other's solutions. This may cause issues with plagiarism.
 >
 >I made a quick three-point assignment for my students to claim their free "Hacker" level Repl.it accounts. I made [this video](https://youtu.be/ZqzVN47oVr0) to walk them through the process.
