@@ -88,7 +88,7 @@
         32 out_1 = ['eight', 'three']
         33
         34 inp_2 = ['4', '1']
-        35 inp_2 = ['four', 'one']
+        35 out_2 = ['four', 'one']
         ```
     - Make sure the [rubric](/README.md#grading) in the README.md file lists these two tests as the test cases.
     
