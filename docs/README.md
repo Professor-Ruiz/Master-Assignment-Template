@@ -77,18 +77,19 @@
 ## Create an assignment in GitHub Classroom
 > Once you've created an assignment repository template, you'll can create an assignment.
 
-1. In the ***Select a repository*** pull-down menu, select the assignment repository you just created:
-    - Type in your organization name, followed by a forward slash /
-    - Scroll until you find the assignment repository
+1. When the ***Select a repository*** pull-down menu appears, find the assignment repository you just created.
 
-6. If you want your students to use Repl.it for this assignment, enter this Repl.it configuration:
+2. The Run command is ```python3 src/exercise.py```
+
+3. If you want your students to use Repl.it for this assignment, enter this Repl.it configuration:
     ```
     Run command:    python3 src/exercise.py
     Language:       Python 3
     ```
-7. Repl.it's Free accounts do not allow students to import assignments (repositories) set to "Private" visibility. However, When assignments are set to "public" visibility, students will have access to each other's solutions. This may cause issues with plagiarism.
-    - I made a quick three-point assignment for my students to claim their free "Hacker" level Repl.it accounts. I made [this video](https://youtu.be/ZqzVN47oVr0) to walk them through the process.
-         
-8. Click ***Continue***
+    
+4. Do not any any automatic grading tests for the assignment.
 
-9. DO NOT Add any tests on this page! Click ***Create assignment***
+# A note on repl.it
+>Repl.it's Free accounts do not allow students to import assignments (repositories) set to "Private" visibility. However, When assignments are set to "public" visibility, students will have access to each other's solutions. This may cause issues with plagiarism.
+>
+>I made a quick three-point assignment for my students to claim their free "Hacker" level Repl.it accounts. I made [this video](https://youtu.be/ZqzVN47oVr0) to walk them through the process.
