@@ -59,7 +59,7 @@
         pip install pytest flake8 sys NumPy Tkinter
         ```
 
-8. Set up the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md).
+8. Set up the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md). I've already pre-written them so they'll run automatically with each student submission.
     - Link didn't work? [Try this one](https://github.com/Professor-Ruiz/master-assignment-template/blob/main/docs/testing-options.md)
     
       ![Testing Options](assets/testing-options.png)
