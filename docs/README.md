@@ -31,6 +31,7 @@
 1. Open your copy of ***master-assignment-template***
 
 2. Press the green ***Use this template*** button to generate a clone
+
    ![Use this template button](assets/use-this-template-button.png)
 
 3. Name your repository, then click ***Begin Import***
@@ -41,6 +42,8 @@
     
 6. Check [exercise.py](/src/exercise.py) to see if the student's boiler-plate code needs to be updated for this new assignment.
     - Do you need to add a user-defined function stub?
+    
+    ![exercise.py](assets/exercise-file.png)
     
 7. Will students need to import any modules into this program?
     - Example:
