@@ -35,7 +35,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 <details>
   <summary>One input/output test</summary>
 
-> Remove the second test in the file by following the directions below:
+> This test will execute your student's program once. You supply the input and expected output. It captures the program output in it's entirety. You'll need to remove the second input/output pair in the file by following the directions below:
 
 <br>
 
