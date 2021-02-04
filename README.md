@@ -1,7 +1,7 @@
 # Lesson X Programming Assignment
 
 ## Objectives
-- Formulate a working solution to a business problem that incorporates the use of  `x, x, and x`.
+- Formulate a working solution to a business problem that incorporates `<recursion>, <user-defined functions>, <iteration>, <conditionals>`.
 - Construct a flowchart that demonstrates the logic of an algorithm.
 - Recognize, Identify, Select, Analyze, Differentiate, Distinguish, Diagram, Examine, Outline, Subdivide, Understand, Demonstrate, Illustrate, Represent, Interpret, Evaluate, Apply, Assess, Chart, Construct, Develop, Implement, Prepare, Provide, Compute, Contribute, Determine, Establish, Include, Produce, Show, Combine, Design, Make, Plan, Compose, Create, Devise, Formulate, 
 
@@ -12,7 +12,7 @@
     - [diagrams.net](https://app.diagrams.net/) is a free and easy tool you can use to create flowcharts. 
     - I created an [instructional video](https://youtu.be/oy5nhA7QpNI) outlining how to create and submit flowcharts.
     
-- Format the `< user prompt > < output > < file >` exactly as shown in the example below:
+- Format the `<user prompt> <output> <file>` as shown in the example below:
   ```
   <format example>
   ```
