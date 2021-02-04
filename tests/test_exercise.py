@@ -29,13 +29,10 @@ import pytest
 import src.exercise
 
 inp_1 = []
-out_1 = []
-
-inp_2 = []
-out_2 = []
+out_1 = ['Hello']
 
 # run the test function for each input/output pair
-@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2)])
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
 def test_capture_stdout(capsys, test_input, expected):
 
     # Load the test input for the program execution:
