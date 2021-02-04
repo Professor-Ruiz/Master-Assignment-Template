@@ -65,7 +65,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 
 <br>
 <details>
-  <summary><b>Three nput/output tests</b></summary>
+  <summary><b>Three input/output tests</b></summary>
 
 > This test will execute your student's program three times. You supply the input and expected output for each execution. It captures the program output in it's entirety. You'll need to add a third input/output pair in the file by following the directions below:
     
@@ -109,11 +109,30 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 <details>
   <summary>One output test, no input</summary>
 
-> If your student's program doesn't accept any user input, you should choose this option.
+> This test will execute your student's program once. You supply the expected output. It captures the program output in it's entirety. You'll need to remove the second input/output pair in the file by following the directions below:
     
 <br>
 
-blah
+- Leave the value of ```inp_1``` on [line 31](./tests/test_exercise.py) as an empty string
+    
+- Assign the value to the expected program output to the variable ```out_1``` on line 32
+  - It should be a list of string(s) 
+  - Each string in the list should correspond to a complete line of output on the console.
+  - Exclude any ```input()``` function prompts (only include ```print()``` function output)
+  - Exclude newline characters and blank lines (\n).
+
+- Delete lines 34-36: ```inp_2``` and ```inp_3```
+  
+- At (now) line 35, delete ```, (inp_2, out_2)``` from the decorator.
+  
+- Finished Example:
+  ```Python
+  31 inp_1 = []
+  32 out_1 = ['hello']
+  33   
+  34 # run the test function for each input/output pair
+  35 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
+  ```
 
 </details>
 
@@ -126,7 +145,35 @@ blah
     
 <br>
 
-blah
+import pytest
+import src.exercise
+
+inp_1 = [5,6]
+out_1 = "The sum of both numbers is 11"
+
+inp_2 = [1,1]
+out_2 = "The sum of both numbers is 2"
+
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2)])
+def test_capture_stdout(capsys, test_input, expected):
+
+    # Load the test input for the program execution:
+    def mock_input(s):
+        return test_input.pop(0)
+    src.exercise.input = mock_input
+    
+    # Execute the student program, and capture the output (print statements):
+    src.exercise.main()
+    out, err = capsys.readouterr()
+
+    # Reformat program output as a list of strings.
+    # Each line of output will be a list element, excluding all newline characters.
+    out = out.strip().split('\n')
+    out = [i for i in out if i]
+    
+    # Test the actual program output against the anticipated program output:
+    assert expected in out
 
 </details>
 
