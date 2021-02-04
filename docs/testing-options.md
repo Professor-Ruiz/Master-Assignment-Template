@@ -24,14 +24,14 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
     - Exclude newline characters and blank lines (\n).
     
 - Example:
-  ```python
+  ```Python
   inp_1 = ['1']
   out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
 
   inp_2 = ['2']
   out_2 = ['2 plus 1 is 3', '2 plus 2 is 4', '2 plus 3 is 5']
   ```
-    
+</details>
 
     
 4. <details><summary>Make your copy of <b>master-assignment-template</b> a template</summary>
