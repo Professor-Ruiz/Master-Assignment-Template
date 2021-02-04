@@ -40,9 +40,6 @@
 > Once you've created an assignment repo using your copy of master-assignment-template as it's template, you'll want to update and edit some things. In this section, we'll check everything in the new assignment repo to make sure it reflects the assignment you want to create.
 
 1. Make your repository a Template repository
-    - Click the ***Settings*** menu in the upper right corner
-    - Click the ***Template repository*** option
-    - A green check mark to the right indicates success
 
 1. Update the [README.md](/README.md) file. It is the directions the students will see when they accept the assignment.
     
@@ -86,7 +83,7 @@
 5. Delete the entire [docs folder](/docs) along with both its files (README.md & _config.yml) from your assignment template. It includes this readme file intended for teachers only, and the config file makes the public webpage pretty :)
         
 ## Create an assignment in GitHub Classroom
-> Once you've created an assignment repository template, you'll want to create an assignment.
+> Once you've created an assignment repository template, you'll can create an assignment.
 
 1. Navigate to [https://classroom.github.com/classrooms](https://classroom.github.com/classrooms)
 
