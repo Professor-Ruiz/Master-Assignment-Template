@@ -2,9 +2,9 @@
     
 > This is a master template for creating autograded Python assignments. To use this template for your GitHub assignments, follow these steps in order:
 
-    1. Clone this master-assignment-template
-    2. Create an assignment repository   
-    3. Create an assignment in GitHub Classroom
+   1. Clone this master-assignment-template
+   2. Create an assignment repository   
+   3. Create an assignment in GitHub Classroom
 
 ## Clone this master-assignment-template
 
