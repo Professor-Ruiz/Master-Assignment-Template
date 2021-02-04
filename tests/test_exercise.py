@@ -1,26 +1,4 @@
 '''
--- How to customize --
-For each new assignment template made from this repo,
-the only changes needed to test_exercise.py
-are the input/output pairs: inp_1, out_1, inp_2, out_2
-
--- How to format your inputs --
-A list of strings
-    - even if only 1 value
-    - even if numbers
-    - Exclude any input() function prompts.
-    - Exclude newline characters (\n)
-Example inputs:
-inp_1 = ['5']
-inp_2 = ['Jane','Doe']
-
--- How to format your outputs --
-A list of strings
-    - Each string should correspond to a line of output on the console
-    - Exclude any input() function prompts
-    - Exclude any blank lines (newline characters, \n)
-    
-(Professor Bianca Ruiz)
 References:
 - https://docs.pytest.org/en/stable/parametrize.html
 - https://docs.pytest.org/en/stable/capture.html
