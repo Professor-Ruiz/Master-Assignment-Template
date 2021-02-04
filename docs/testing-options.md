@@ -8,7 +8,7 @@
     
 <br>
 
-Update [lines 9-13](./tests/test_exercise.py#L9) of test_exercise.py
+Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 
 - The inputs should be a list of strings.
     - Exclude any input() function prompts.
