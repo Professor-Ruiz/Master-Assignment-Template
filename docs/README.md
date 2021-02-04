@@ -4,11 +4,10 @@
 
 1. [Clone this master-assignment-template](#clone-this-master-assignment-template)
 2. [Create an assignment repository](#create-an-assignment-repository)
-
     2.1. [Update and edit your assignment repository](#update-and-edit-your-assignment-repository)
 3. [Create an assignment in GitHub Classroom](#create-an-assignment-in-github-classroom)
 
-## (1) Clone this master-assignment-template
+## Clone this master-assignment-template
 
 > You only need to complete this step one time. This will give you your own copy of the master template. You will use it as a template each time you create your own assignment repositories.
 
@@ -33,7 +32,7 @@
     - You'll use this as a template each time you make a new assignment repository
     - Don't make changes to your copy of ***master-assignment-template***
 
-## (2) Create an assignment repository
+## Create an assignment repository
 > For each assignment you'd like to create in GitHub classroom, create a new repository using your copy of master-assignment-template as it's template.
 
 1. Navigate to https://github.com/new
@@ -44,7 +43,7 @@
 
 4. Name your assignment repository, then click ***Create repository***
 
-### (2.1) Update and edit your assignment repository
+### Update and edit your assignment repository
 > Once you've created an assignment repo using your copy of master-assignment-template as it's template, you'll want to update and edit some things. In this section, we'll check everything in the new assignment repo to make sure it reflects the assignment you want to create.
 
 1. Make your repository a Template repository
@@ -93,7 +92,7 @@
     
 5. Delete this file (```TEACHER_README.md```) from this new assignment repository
         
-## (3) Create an assignment in GitHub Classroom
+## Create an assignment in GitHub Classroom
 > Once you've created an assignment repository template, you'll want to create an assignment.
 
 1. Navigate to https://classroom.github.com/classrooms
