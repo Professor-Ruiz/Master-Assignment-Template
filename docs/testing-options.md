@@ -71,7 +71,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
     
 <br>
 
-- Move the code on [line 37](./tests/test_exercise.py) down two lines to line 39
+- Move the code on [line 37](./tests/test_exercise.py) down two lines to line 40
 
 - Insert ```inp_3 = []``` on line 37, and ```out_3 = []``` on line 38
 
@@ -115,7 +115,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 
 - Leave the value of ```inp_1``` on [line 31](./tests/test_exercise.py) as an empty string
     
-- Assign the value to the expected program output to the variable ```out_1``` on line 32
+- Assign the value to the expected program output to ```out_1``` on line 32
   - It should be a list of string(s) 
   - Each string in the list should correspond to a complete line of output on the console.
   - Exclude any ```input()``` function prompts (only include ```print()``` function output)
@@ -139,7 +139,7 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
 <br>
 <br>
 <details>
-  <summary>Testing if one string is in the program output</summary>
+  <summary><b>Test for a single string in the output</b></summary>
 
 > If your student's program doesn't accept any user input, you should choose this option.
     
