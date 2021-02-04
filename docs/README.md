@@ -89,7 +89,7 @@
         34 inp_2 = ['4', '1']
         35 inp_2 = ['four', 'one']
         ```
-    - Make sure the [rubric](README.md#grading) in the README.md file lists these two tests as the test cases.
+    - Make sure the [rubric](/README.md#grading) in the README.md file lists these two tests as the test cases.
     
 5. Delete the ***Docs*** folder from your assignment template. It includes this readme file intended for teachers only, and the pretty page theme you see :)
         
