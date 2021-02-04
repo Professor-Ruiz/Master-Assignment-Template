@@ -37,7 +37,7 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 
 <br>
 
-- Assign the value of the program input to the variable ```inp_1``` on [line 9](./tests/test_exercise.py#L9) of test_exercise.py
+- Assign the value of the program input to the variable ```inp_1``` on [line 9](../tests/test_exercise.py#L9) of test_exercise.py
   - It should be a list of string(s) 
   - Exclude any input() function prompts.
   - Exclude newline characters (```\n```).
@@ -71,7 +71,7 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
     
 <br>
 
-- Move the code on [line 15](./tests/test_exercise.py#L15) down three lines to line 18
+- Move the code on [line 15](../tests/test_exercise.py#L15) down three lines to line 18
 
 - Insert ```inp_3 = []``` on line 15, and ```out_3 = []``` on line 16
 
@@ -113,7 +113,7 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
     
 <br>
 
-- Leave the value of ```inp_1``` on [line 9](./tests/test_exercise.py#L9) as an empty string
+- Leave the value of ```inp_1``` on [line 9](../tests/test_exercise.py#L9) as an empty string
     
 - Assign the value to the expected program output to ```out_1``` on line 10
   - It should be a list of string(s) 
@@ -127,7 +127,7 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
   
 - Finished Example:
   ```Python
-  09 inp_1 = []
+   9 inp_1 = []
   10 out_1 = ['hello']
   11   
   12 # run the test function for each input/output pair
@@ -143,6 +143,8 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 > This test will execute your student's program twice. You supply the input and the test string. The test captures the program output in it's entirety. Then it tests if the given string is in the program output.
     
 <br>
+
+Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 
 - Assign the program inputs to ```inp_1``` and ```inp_2```:
   - They should be lists of string(s) 
