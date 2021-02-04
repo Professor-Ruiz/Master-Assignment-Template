@@ -13,7 +13,7 @@
 
 1. Navigate to [https://github.com/Professor-Ruiz/master-assignment-template/generate](https://github.com/Professor-Ruiz/master-assignment-template/generate)
     
-2. Name your repository ***master-assignment-template***, then click ***Begin Import***
+2. Name your repository, then click ***Begin Import***
     - Make sure your organization is the repository owner (not your GitHub username)
     
 4. Make your copy of ***master-assignment-template*** a template
@@ -23,6 +23,7 @@
     - A green check mark to the right indicates success
 
 ## Create an assignment repository
+
 > For each assignment you'd like to create in GitHub classroom, create a new repository using your copy of master-assignment-template as it's template.
 
 1. Navigate to [https://github.com/new](https://github.com/new)
