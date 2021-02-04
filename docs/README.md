@@ -21,7 +21,7 @@
     - Navigate to https://github.com/new/import
     - Paste the clone URL in the text box
     - Make sure your organization is the repository owner (not your GitHub username)
-    - Name your repository ***master-assignment-template**, then click ***Begin Import***
+    - Name your repository ***master-assignment-template***, then click ***Begin Import***
     
 4. Make ***master-assignment-template*** a template
     - Open your ***master-assignment-template*** repository
@@ -91,7 +91,7 @@
         ```
     - Make sure the [rubric](README.md#grading) in the README.md file lists these two tests as the test cases.
     
-5. Delete this file (```TEACHER_README.md```) from this new assignment repository
+5. Delete the ***Docs*** folder from your assignment template. It includes this readme file intended for teachers only, and the pretty page theme you see :)
         
 ## Create an assignment in GitHub Classroom
 > Once you've created an assignment repository template, you'll want to create an assignment.
