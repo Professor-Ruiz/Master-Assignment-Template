@@ -44,13 +44,13 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   36
   ```
   
-- At (now) line 35, delete ```, (inp_2, out_2)``` from the decorator. It should now look like this:
+- At (now) line 35, delete ```Python , (inp_2, out_2)``` from the decorator. It should now look like this:
   ```Python
   34 # run the test function for each input/output pair
   35 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
   ```
   
-- Assign the value of the program input to the variable Python'''inp_1''' on line 31
+- Assign the value of the program input to the variable '''Python inp_1''' on line 31
   - It should be a list of string(s) 
   - Exclude any input() function prompts.
   - Exclude newline characters (\n).
