@@ -93,11 +93,11 @@ Update [lines 31-35](/tests/test_exercise.py#L31) of test_exercise.py
   31 inp_1 = ['1']
   32 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
   33 
-  34 inp_2 = []
-  35 out_2 = []
+  34 inp_2 = ['2']
+  35 out_2 = ['2 plus 1 is 3', '2 plus 2 is 4', '2 plus 3 is 5']
   36
-  37 inp_3 = []
-  38 out_3 = []
+  37 inp_3 = ['3']
+  38 out_3 = ['3 plus 1 is 4', '3 plus 2 is 5', '3 plus 3 is 6']
   39
   40 # run the test function for each input/output pair
   41 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2), (inp_3, out_3)])
