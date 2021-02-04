@@ -72,7 +72,7 @@
         ```
     - Make sure the [rubric](/README.md#grading) in the README.md file lists these two tests as the test cases.
     
-5. Need different testing options? Open [this page](/docs/testing_options.md)
+5. Need different testing options? Open [this page](/docs/testing-options.md)
 
 6. Delete the entire [docs folder](/docs) along with all the files inside it (including this file). These files are only meant for teachers, and are not meant to be included in any assignment you make for your students.
         
