@@ -12,7 +12,7 @@
 
 > You only need to complete this step one time. This will give you your own copy of the master template. You will use it as a template each time you create your own assignment repositories.
 
-1. Click the ***Code*** button in the upper right corner of this repository's [root directory](/ ) (to the left of the green "Use this template" button).
+1. Click the ***Code*** button in the upper right corner of this repository's [code directory](https://github.com/Professor-Ruiz/master-assignment-template) (to the left of the green "Use this template" button).
 
 2. Copy the Clone URL that appears in the pop-up text box
     - Example: https://github.com/Professor-Ruiz/master-assignment-template.git
