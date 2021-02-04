@@ -31,7 +31,6 @@
 1. Open your copy of ***master-assignment-template***
 
 2. Press the green ***Use this template*** button to generate a clone
-   ![Use this template button](assets/use-this-template-button.png)
 
 3. Name your repository, then click ***Begin Import***
 
