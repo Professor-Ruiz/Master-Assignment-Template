@@ -1,113 +1,174 @@
 # Testing Options
 
-Choose one of five autograding option below. I've already pre-written the the testing scripts and integrated them into the assignment so they're automatically run with each student submission. I've also kept the required edits to a minimum and provided easy and explicit directions for you.
-
-> HOT TIP:
+> Choose one of five autograding option below. I've already pre-written the the testing scripts and integrated them into the assignment so they automatically run with each student submission. I've also kept the required edits to a minimum and provided easy and explicit directions for you.
 >
-> Put your solution code in [exercise.py](../src/exercise.py) before you begin updating the tests. That way, when you commit your changes to [exercise_test.py](../tests/test_exercise.py), you'll immediately see if it passes the test. Just make sure to delete the solution before you make an assignment!
+> HOT TIP: Put your solution code in [exercise.py](../src/exercise.py) before you begin updating the tests. That way, when you commit your changes to [exercise_test.py](../tests/test_exercise.py), you'll immediately see if it passes the pytest. Just make sure to delete the solution before you make an assignment!!
 
-
-<br>
+<br><br>
 <details>
-  <summary><b>Two input/output tests (default)</b></summary>
+  <summary><b>One input/output test</b></summary>
 
-> This test will execute your student's program twice. You supply the input and expected output for each execution. It captures the program output in it's entirety.
+> This test will execute your student's program once. You supply the input and expected output. It captures the program output in it's entirety.
+
+```Python
+import pytest
+import src.exercise
+
+inp_1 = []
+out_1 = []
+
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
+def test_capture_stdout(capsys, test_input, expected):
     
-<br>
+    # Load the test input for the program execution:
+    def mock_input(s):
+        return test_input.pop(0)
+    src.exercise.input = mock_input
+    
+    # Execute the student program, and capture the output (print statements):
+    src.exercise.main()
+    out, err = capsys.readouterr()
 
-Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
+    # Reformat program output as a list of strings.
+    # Each line of output will be a list element, excluding blank newlines.
+    out = out.strip().split('\n')
+    out = [i for i in out if i]
 
-- The inputs should be a list of strings.
+    # Test the actual program output against the anticipated program output:
+    assert out == expected
+```
+Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
+
+- The input (```inp_1```) should be a list of string(s):
     - Exclude any ```input()``` function prompts.
     - Exclude newline characters (```\n```).
     
-- The outputs should be a list of strings.
+- The output (```out_1```) should be a list of string(s):
     - Each string in the list should correspond to a complete line of output on the console.
     - Exclude any ```input()``` function prompts (only include ```print()``` function output)
     - Exclude newline characters and blank lines (```\n```).
     
-- Finished Example:
+- Example:
   ```Python
-   9 inp_1 = ['1']
-  10 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
-  11 
-  12 inp_2 = ['2']
-  13 out_2 = ['2 plus 1 is 3', '2 plus 2 is 4', '2 plus 3 is 5']
+   4 inp_1 = ['1']
+   5 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
   ```
+
 </details>
+
 
 <br>
 <details>
-  <summary><b>One input/output test</b></summary>
+  <summary><b>Two input/output tests </b><i>(default)</i></summary>
 
-> This test will execute your student's program once. You supply the input and expected output. It captures the program output in it's entirety. You'll need to remove the second input/output pair in the file by following the directions below:
+> This test will execute your student's program twice. You supply the input and expected output for each execution. It captures the program output in it's entirety.
 
-<br>
+```Python
+import pytest
+import src.exercise
 
-- Assign the value of the program input to the variable ```inp_1``` on [line 9](../tests/test_exercise.py#L9) of test_exercise.py
-  - It should be a list of string(s) 
-  - Exclude any ```input()``` function prompts.
-  - Exclude newline characters (```\n```).
+inp_1 = []
+out_1 = []
+
+inp_2 = []
+out_2 = []
+
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2)])
+def test_capture_stdout(capsys, test_input, expected):
     
-- Assign the value to the expected program output to the variable ```out_1``` on line 10
-  - It should be a list of string(s) 
-  - Each string in the list should correspond to a complete line of output on the console.
-  - Exclude any ```input()``` function prompts (only include ```print()``` function output)
-  - Exclude newline characters and blank lines (\n).
+    # Load the test input for the program execution:
+    def mock_input(s):
+        return test_input.pop(0)
+    src.exercise.input = mock_input
+    
+    # Execute the student program, and capture the output (print statements):
+    src.exercise.main()
+    out, err = capsys.readouterr()
 
-- Delete lines 12-14: ```inp_2``` and ```out_2```
-  
-- At (now) line 13, delete ```, (inp_2, out_2)``` from the decorator.
-  
-- Finished Example:
+    # Reformat program output as a list of strings.
+    # Each line of output will be a list element, excluding blank newlines.
+    out = out.strip().split('\n')
+    out = [i for i in out if i]
+
+    # Test the actual program output against the anticipated program output:
+    assert out == expected
+```
+Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
+
+- The inputs (```inp_1```, ```inp_2```) should be lists of string(s):
+    - Exclude any ```input()``` function prompts.
+    - Exclude newline characters (```\n```).
+    
+- The outputs (```out_1```, ```out_2```) should be lists of string(s):
+    - Each string in the list should correspond to a complete line of output on the console.
+    - Exclude any ```input()``` function prompts (only include ```print()``` function output)
+    - Exclude newline characters and blank lines (```\n```).
+    
+- Example:
   ```Python
-  09 inp_1 = ['1']
-  10 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
-  11   
-  12 # run the test function for each input/output pair
-  13 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
+   4 inp_1 = ['1']
+   5 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
   ```
-
 </details>
 
 <br>
+
 <details>
   <summary><b>Three input/output tests</b></summary>
 
-> This test will execute your student's program three times. You supply the input and expected output for each execution. It captures the program output in it's entirety. You'll need to add a third input/output pair in the file by following the directions below:
+> This test will execute your student's program three times. You supply the input and expected output for each execution. It captures the program output in it's entirety. 
+
+```Python
+import pytest
+import src.exercise
+
+inp_1 = []
+out_1 = []
+
+inp_2 = []
+out_2 = []
+
+inp_3 = []
+out_3 = []
+
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2), (inp_3, out_3)])
+def test_capture_stdout(capsys, test_input, expected):
     
-<br>
-
-- Move the code on [line 15](../tests/test_exercise.py#L15) down three lines to line 18
-
-- Insert ```inp_3 = []``` on line 15, and ```out_3 = []``` on line 16
-
-- Assign the value of the program inputs to ```inp_1```, ```inp_2```, and ```inp_3```:
-  - They should be a lists of string(s) 
-  - Exclude any ```input()``` function prompts.
-  - Exclude newline characters (```\n```).
+    # Load the test input for the program execution:
+    def mock_input(s):
+        return test_input.pop(0)
+    src.exercise.input = mock_input
     
-- Assign the value to the expected program output to ```out_1```, ```out_2```, ```out_3```:
-  - They should be a lists of string(s) 
-  - Each string in the list should correspond to a complete line of output on the console.
-  - Exclude any ```input()``` function prompts (only include ```print()``` function output)
-  - Exclude newline characters and blank lines (\n).
-  
-- At (now) line 19, add ```, (inp_3, out_3)``` to the decorator.
-  
-- Finished Example:
+    # Execute the student program, and capture the output (print statements):
+    src.exercise.main()
+    out, err = capsys.readouterr()
+
+    # Reformat program output as a list of strings.
+    # Each line of output will be a list element, excluding blank newlines.
+    out = out.strip().split('\n')
+    out = [i for i in out if i]
+
+    # Test the actual program output against the anticipated program output:
+    assert out == expected
+```
+Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
+
+- The inputs (```inp_1```, ```inp_2```, ```inp_3```) should be lists of string(s):
+    - Exclude any ```input()``` function prompts.
+    - Exclude newline characters (```\n```).
+    
+- The outputs (```out_1```, ```out_2```, ```out_3```) should be lists of string(s):
+    - Each string in the list should correspond to a complete line of output on the console.
+    - Exclude any ```input()``` function prompts (only include ```print()``` function output)
+    - Exclude newline characters and blank lines (```\n```).
+    
+- Example:
   ```Python
-  09 inp_1 = ['1']
-  10 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
-  11 
-  12 inp_2 = ['2']
-  13 out_2 = ['2 plus 1 is 3', '2 plus 2 is 4', '2 plus 3 is 5']
-  14
-  15 inp_3 = ['3']
-  16 out_3 = ['3 plus 1 is 4', '3 plus 2 is 5', '3 plus 3 is 6']
-  17
-  18 # run the test function for each input/output pair
-  19 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2), (inp_3, out_3)])
+   4 inp_1 = ['1']
+   5 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
   ```
 
 </details>
@@ -116,68 +177,106 @@ Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
 <details>
   <summary><b>One test, no input</b></summary>
 
-> This test will execute your student's program once. You supply the expected output. It captures the program output in it's entirety. You'll need to remove the second input/output pair in the file by following the directions below:
-    
-<br>
+> This test will execute your student's program once. You supply the expected output. It captures the program output in it's entirety. 
 
-- Leave the value of ```inp_1``` on [line 9](../tests/test_exercise.py#L9) as an empty list
-    
-- Assign the value of the expected program output to ```out_1``` on line 10
-  - It should be a list of string(s) 
-  - Each string in the list should correspond to a complete line of output on the console.
-  - Exclude any ```input()``` function prompts (only include ```print()``` function output)
-  - Exclude newline characters and blank lines (```\n```).
+```Python
+import pytest
+import src.exercise
 
-- Delete lines 12-14: ```inp_2``` and ```out_2```
-  
-- At (now) line 13, delete ```, (inp_2, out_2)``` from the decorator.
-  
-- Finished Example:
+inp_1 = []
+out_1 = []
+
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
+def test_capture_stdout(capsys, test_input, expected):
+    
+    # Load the test input for the program execution:
+    def mock_input(s):
+        return test_input.pop(0)
+    src.exercise.input = mock_input
+    
+    # Execute the student program, and capture the output (print statements):
+    src.exercise.main()
+    out, err = capsys.readouterr()
+
+    # Reformat program output as a list of strings.
+    # Each line of output will be a list element, excluding blank newlines.
+    out = out.strip().split('\n')
+    out = [i for i in out if i]
+
+    # Test the actual program output against the anticipated program output:
+    assert out == expected
+```
+Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
+
+- The input (```inp_1```) should remain an empty list.
+    
+- The output (```out_1```) should be a list of string(s):
+    - Each string in the list should correspond to a complete line of output on the console.
+    - Exclude any ```input()``` function prompts (only include ```print()``` function output)
+    - Exclude newline characters and blank lines (```\n```).
+    
+- Example:
   ```Python
-   9 inp_1 = []
-  10 out_1 = ['hello']
-  11   
-  12 # run the test function for each input/output pair
-  13 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
+   4 inp_1 = []
+   5 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
   ```
 
 </details>
 
 <br>
 <details>
-  <summary><b>Test for a single string in the program output</b></summary>
+  <summary><b>Test for a specific string in the program output</b></summary>
 
-> This test will execute your student's program twice. You supply the input and the test string. The test captures the program output in it's entirety. Then it tests if the given string is in the program output.
+> This test will execute your student's program twice. You supply the inputs and the test strings. The test captures the program output in it's entirety. Then it tests if the given string is in the program output.
     
-<br>
+```Python
+import pytest
+import src.exercise
 
-Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
+inp_1 = []
+out_1 = []
 
-- Assign the program inputs to ```inp_1``` and ```inp_2```:
-  - They should be lists of string(s) 
-  - Exclude any ```input()``` function prompts.
-  - Exclude newline characters (```\n```).
-    
-- Assign the test strings to ```out_1``` and ```out_2```
-    - They should each be a single string enclosed in quotes.
-    
-- Delete lines 28-32. This code reformats the captured program output, it will break your test.
+inp_2 = []
+out_2 = []
 
-- change the assert statement to ```assert expected in out```
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2)])
+def test_capture_stdout(capsys, test_input, expected):
     
-- Finished Example:
+    # Load the test input for the program execution:
+    def mock_input(s):
+        return test_input.pop(0)
+    src.exercise.input = mock_input
+    
+    # Execute the student program, and capture the output (print statements):
+    src.exercise.main()
+    out, err = capsys.readouterr()
+
+    # Test the actual program output against the anticipated program output:
+    assert expected in out
+```
+Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
+
+- The inputs (```inp_1```, ```inp_2```) should be lists of string(s):
+    - Exclude any ```input()``` function prompts.
+    - Exclude newline characters (```\n```).
+    
+- The outputs (```out_1```, ```out_2```) should be the test strings:
+    - They should be a single string, enclosed in quotes.
+    
+- Example:
   ```Python
-  09 inp_1 = ['1', '1']
-  10 out_1 = '2'
-  11
-  12 inp_1 = ['2', '3']
-  13 out_1 = '5'
-  ..
-  ..
-  26     out, err = capsys.readouterr()
-  27
-  28     # Test if the expected output was in the actual output:
-  29     assert expected in out
+   4 inp_1 = ['1']
+   5 out_1 = 'One'
   ```
+
   <br>
 </details>
+<br><br>
+
+> *All tests created and shared by*
+>
+> *:purple_heart:  Bianca Ruiz*
+>
+> *:nerd_face:   Github:  @RuizTheRuler*
