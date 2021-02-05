@@ -1,6 +1,12 @@
 name: Python package
 
-on: [push]
+on:
+  push:
+    paths: 
+      # Only perform this workflow when the students submits their program or the testing script is changed.
+      # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
+      - 'tests/test_exercise.py'
+      - 'src/exercise.py'
 
 jobs:
   build:
