@@ -18,7 +18,7 @@
     
       ![Settings tab](assets/settings-tab.png)
       
-    - Click the ***Template repository*** checkbox:
+    - Click the ***Template repository*** checkbox
     
       ![Template repository check box](assets/template-repository.png)
 
