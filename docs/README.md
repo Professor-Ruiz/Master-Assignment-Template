@@ -8,7 +8,7 @@
 
 ## Clone this repository
 
-> You only need to complete this step one time. This will give you your own copy of this master template. You will use your own copy as a template each time you create an assignment repositories.
+> You only need to complete this step once. This will give you your own copy of this master template. You will use your own copy as a template each time you create an assignment repositories.
 
 1. Navigate to [https://github.com/Professor-Ruiz/master-assignment-template/generate](https://github.com/Professor-Ruiz/master-assignment-template/generate)    
 2. Name your repository, then click ***Begin Import***
