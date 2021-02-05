@@ -60,7 +60,7 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 
 <br>
 <details>
-  <summary><b>Two input/output tests</b></summary>
+  <summary><b>Two input/output tests </b><i>(default)</i></summary>
 
 > This test will execute your student's program twice. You supply the input and expected output for each execution. It captures the program output in it's entirety.
 
