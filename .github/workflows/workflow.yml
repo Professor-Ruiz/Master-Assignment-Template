@@ -2,8 +2,8 @@ name: Build and Test
 
 on:
   push:
-    # Perform this workflow only when there is a push to the student solution file or the pytest testing script
-    # Force the runner to skip this workflow when the repo is first created (cloned, forked, whatevs)
+    # This workflow will only execute when there is a push to the student solution file or the testing script
+    # This workflow will not execute when a repo is first created (cloned, assigned, forked, etc)
     # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
     paths: 
       - 'tests/test_exercise.py'      # testing script
@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      # Tell the runner to use the newest release of Python 3 available by using 'Python 3.x' syntax below
+      # By using 'Python 3.x' syntax below, the runner will use the newest release of Python 3 available
       # https://docs.github.com/en/actions/guides/building-and-testing-python
     - name: Set up Python 3.x
       uses: actions/setup-python@v2
