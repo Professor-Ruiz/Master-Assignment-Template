@@ -1,9 +1,15 @@
 import pytest
 import src.exercise
 
-out_1 = ['hello']
+inp_1 = ['bianca']
+out_1 = ['bianca']
 
 def test_capture_stdout(capsys):
+    
+    # Load the test input for the program execution:
+    def mock_input(s):
+        return inp_1.pop(0)
+    src.exercise.input = mock_input
     
     # Execute the student program, and capture the output (print statements):
     src.exercise.main()
