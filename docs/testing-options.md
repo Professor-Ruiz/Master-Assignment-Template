@@ -1,10 +1,10 @@
 # Testing Options
 
-Choose one of five autograding option below. I've already pre-written the the testing scripts and integrated them into the assignment so they're automatically run with each student submission. I've also kept the required edits to a minimum and provided easy and explicit directions for you.
-
+> Choose one of five autograding option below. I've already pre-written the the testing scripts and integrated them into the assignment so they're automatically > run with each student submission. I've also kept the required edits to a minimum and provided easy and explicit directions for you.
+>
 > HOT TIP:
 >
-> Put your solution code in [exercise.py](../src/exercise.py) before you begin updating the tests. That way, when you commit your changes to [exercise_test.py](../tests/test_exercise.py), you'll immediately see if it passes the test. Just make sure to delete the solution before you make an assignment!
+> Put your solution code in [exercise.py](../src/exercise.py) before you begin updating the tests. That way, when you commit your changes to [exercise_test.py](../tests/test_exercise.py), you'll immediately see if it passes the pytest. Just make sure to delete the solution before you make an assignment!
 
 
 <br>
@@ -46,7 +46,7 @@ def test_capture_stdout(capsys, test_input, expected):
     # Test the actual program output against the anticipated program output:
     assert out == expected
 ```
-Paste the code above into test_exercise.py, then update the following:
+Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
 
 - The inputs (```inp_1```, ```inp_2```) should be lists of string(s):
     - Exclude any ```input()``` function prompts.
@@ -100,7 +100,7 @@ def test_capture_stdout(capsys, test_input, expected):
     # Test the actual program output against the anticipated program output:
     assert out == expected
 ```
-Paste the code above into test_exercise.py, then update the following:
+Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
 
 - The input (```inp_1```) should be a list of string(s):
     - Exclude any ```input()``` function prompts.
@@ -161,7 +161,7 @@ def test_capture_stdout(capsys, test_input, expected):
     # Test the actual program output against the anticipated program output:
     assert out == expected
 ```
-Paste the code above into test_exercise.py, then update the following:
+Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
 
 - The inputs (```inp_1```, ```inp_2```, ```inp_3```) should be lists of string(s):
     - Exclude any ```input()``` function prompts.
@@ -216,7 +216,7 @@ def test_capture_stdout(capsys, test_input, expected):
     # Test the actual program output against the anticipated program output:
     assert out == expected
 ```
-Paste the code above into test_exercise.py, then update the following:
+Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
 
 - The input (```inp_1```) should remain an empty list.
     
@@ -266,7 +266,7 @@ def test_capture_stdout(capsys, test_input, expected):
     # Test the actual program output against the anticipated program output:
     assert expected in out
 ```
-Paste the code above into test_exercise.py, then update the following:
+Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
 
 - The inputs (```inp_1```, ```inp_2```) should be lists of string(s):
     - Exclude any ```input()``` function prompts.
