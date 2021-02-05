@@ -1,14 +1,19 @@
 import pytest
 import src.exercise
 
-inp_1 = ['bianca']
-out_1 = ['bianca']
+inp_1 = []
+out_1 = []
 
-def test_capture_stdout(capsys):
+inp_2 = []
+out_2 = []
+
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2)])
+def test_capture_stdout(capsys, test_input, expected):
     
     # Load the test input for the program execution:
     def mock_input(s):
-        return inp_1.pop(0)
+        return test_input.pop(0)
     src.exercise.input = mock_input
     
     # Execute the student program, and capture the output (print statements):
@@ -21,4 +26,4 @@ def test_capture_stdout(capsys):
     out = [i for i in out if i]
 
     # Test the actual program output against the anticipated program output:
-    assert out == out_1
+    assert out == expected
