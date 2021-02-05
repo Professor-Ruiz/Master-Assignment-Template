@@ -47,7 +47,7 @@
         import NumPy
         import Tkinter
         ```
-    - If yes, add those modules to [line 22](/.github/workflows/workflow.yml#L22) of the workflow.yml file
+    - If yes, add those modules to [line 28](/.github/workflows/workflow.yml#L28) of the workflow.yml file
         ```
         pip install pytest flake8 sys NumPy Tkinter
         ```
