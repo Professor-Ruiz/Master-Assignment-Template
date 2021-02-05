@@ -3,7 +3,7 @@ import src.exercise
 
 out_1 = ['hello']
 
-def test_capture_stdout(capsys, out_1):
+def test_capture_stdout(capsys):
     
     # Execute the student program, and capture the output (print statements):
     src.exercise.main()
