@@ -9,7 +9,7 @@ Choose one of five autograding option below. I've already pre-written the the te
 
 <br>
 <details>
-  <summary><b>Two input/output tests (default)</b></summary>
+  <summary><b>Two input/output tests</b></summary>
 
 > This test will execute your student's program twice. You supply the input and expected output for each execution. It captures the program output in it's entirety.
     
