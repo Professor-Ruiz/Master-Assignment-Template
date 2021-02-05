@@ -3,7 +3,7 @@ name: Build and Test
 on:
   push:
     paths: 
-      # Only perform this workflow when the students submits their program or the testing script is changed.
+      # Only perform this workflow when with pushes to student solution file or the pytest testing script
       # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
       - 'tests/test_exercise.py'
       - 'src/exercise.py'
