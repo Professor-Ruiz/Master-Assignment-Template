@@ -4,7 +4,7 @@
 >
 > HOT TIP: Put your solution code in [exercise.py](../src/exercise.py) before you begin updating the tests. That way, when you commit your changes to [exercise_test.py](../tests/test_exercise.py), you'll immediately see if it passes the pytest. Just make sure to delete the solution before you make an assignment!
 
-
+<br><br>
 <details>
   <summary><b>One input/output test</b></summary>
 
