@@ -17,13 +17,11 @@ import src.exercise
 inp_1 = []
 out_1 = []
 
-# run the test function for each input/output pair
-@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
-def test_capture_stdout(capsys, test_input, expected):
+def test_capture_stdout(capsys, inp_1, out_1):
     
     # Load the test input for the program execution:
     def mock_input(s):
-        return test_input.pop(0)
+        return inp_1.pop(0)
     src.exercise.input = mock_input
     
     # Execute the student program, and capture the output (print statements):
@@ -36,7 +34,7 @@ def test_capture_stdout(capsys, test_input, expected):
     out = [i for i in out if i]
 
     # Test the actual program output against the anticipated program output:
-    assert out == expected
+    assert out == out_1
 ```
 Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
 
@@ -183,17 +181,9 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 import pytest
 import src.exercise
 
-inp_1 = []
 out_1 = []
 
-# run the test function for each input/output pair
-@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
-def test_capture_stdout(capsys, test_input, expected):
-    
-    # Load the test input for the program execution:
-    def mock_input(s):
-        return test_input.pop(0)
-    src.exercise.input = mock_input
+def test_capture_stdout(capsys, out_1):
     
     # Execute the student program, and capture the output (print statements):
     src.exercise.main()
@@ -205,12 +195,10 @@ def test_capture_stdout(capsys, test_input, expected):
     out = [i for i in out if i]
 
     # Test the actual program output against the anticipated program output:
-    assert out == expected
+    assert out == out_1
 ```
 Paste the code above into [exercise_test.py](../tests/test_exercise.py), then update the following:
 
-- The input (```inp_1```) should remain an empty list.
-    
 - The output (```out_1```) should be a list of string(s):
     - Each string in the list should correspond to a complete line of output on the console.
     - Exclude any ```input()``` function prompts (only include ```print()``` function output)
@@ -218,8 +206,7 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
     
 - Example:
   ```Python
-   4 inp_1 = []
-   5 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
+   4 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
   ```
 
 </details>
