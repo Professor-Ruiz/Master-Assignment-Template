@@ -60,8 +60,8 @@ Paste the code above into test_exercise.py, then update the following:
     
 - Example:
   ```Python
-   9 inp_1 = ['1']
-  10 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
+   4 inp_1 = ['1']
+   5 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
   ```
 </details>
 
