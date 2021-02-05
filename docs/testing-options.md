@@ -15,24 +15,53 @@ Choose one of five autograding option below. I've already pre-written the the te
     
 <br>
 
-Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
+```Python
+import pytest
+import src.exercise
 
-- The inputs should be a list of strings.
+inp_1 = []
+out_1 = []
+
+inp_2 = []
+out_2 = []
+
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2)])
+def test_capture_stdout(capsys, test_input, expected):
+    
+    # Load the test input for the program execution:
+    def mock_input(s):
+        return test_input.pop(0)
+    src.exercise.input = mock_input
+    
+    # Execute the student program, and capture the output (print statements):
+    src.exercise.main()
+    out, err = capsys.readouterr()
+
+    # Reformat program output as a list of strings.
+    # Each line of output will be a list element, excluding blank newlines.
+    out = out.strip().split('\n')
+    out = [i for i in out if i]
+
+    # Test the actual program output against the anticipated program output:
+    assert out == expected
+```
+
+Paste the code above into test_exercise.py, then update the following:
+
+- The inputs (inp_1, inp_2) should be lists of strings:
     - Exclude any ```input()``` function prompts.
     - Exclude newline characters (```\n```).
     
-- The outputs should be a list of strings.
+- The outputs (out_1, out_2) should be lists of strings:
     - Each string in the list should correspond to a complete line of output on the console.
     - Exclude any ```input()``` function prompts (only include ```print()``` function output)
     - Exclude newline characters and blank lines (```\n```).
     
-- Finished Example:
+- Example:
   ```Python
    9 inp_1 = ['1']
   10 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
-  11 
-  12 inp_2 = ['2']
-  13 out_2 = ['2 plus 1 is 3', '2 plus 2 is 4', '2 plus 3 is 5']
   ```
 </details>
 
