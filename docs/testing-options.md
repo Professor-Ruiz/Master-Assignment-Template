@@ -8,7 +8,7 @@
 <details>
   <summary><b>One input/output test</b></summary>
 
-> This test will execute your student's program once. You supply the input and expected output. It captures the program output in it's entirety. You'll need to remove the second input/output pair in the file by following the directions below:
+> This test will execute your student's program once. You supply the input and expected output. It captures the program output in it's entirety.
 
 ```Python
 import pytest
@@ -118,7 +118,7 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 <details>
   <summary><b>Three input/output tests</b></summary>
 
-> This test will execute your student's program three times. You supply the input and expected output for each execution. It captures the program output in it's entirety. You'll need to add a third input/output pair in the file by following the directions below:
+> This test will execute your student's program three times. You supply the input and expected output for each execution. It captures the program output in it's entirety. 
 
 ```Python
 import pytest
@@ -177,8 +177,7 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 <details>
   <summary><b>One test, no input</b></summary>
 
-> This test will execute your student's program once. You supply the expected output. It captures the program output in it's entirety. You'll need to remove the second input/output pair in the file by following the directions below:
-
+> This test will execute your student's program once. You supply the expected output. It captures the program output in it's entirety. 
 
 ```Python
 import pytest
