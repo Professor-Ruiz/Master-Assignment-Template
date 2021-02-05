@@ -275,6 +275,6 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 </details>
 <br><br>
 
-*All tests created and shared by :purple_heart: Bianca Ruiz :purple_heart:*
+*All tests created and shared by :purple_heart:Bianca Ruiz:purple_heart:*
 
 *Github: @RuizTheRuler*
