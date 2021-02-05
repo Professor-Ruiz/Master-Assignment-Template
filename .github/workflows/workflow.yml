@@ -2,26 +2,26 @@ name: Build and Test
 
 on:
   push:
+    # Perform this workflow only when there is a push to the student solution file or the pytest testing script
+    # Force the runner to skip this workflow when the repo is first created (cloned, forked, whatevs)
+    # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
     paths: 
-      # Only perform this workflow when with pushes to student solution file or the pytest testing script
-      # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
-      - 'tests/test_exercise.py'
-      - 'src/exercise.py'
+      - 'tests/test_exercise.py'      # testing script
+      - 'src/exercise.py'             # student solution file
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.6, 3.7, 3.8]
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v1
+      # Tell the runner to use the newest release of Python 3 available by using 'Python 3.x' syntax below
+      # https://docs.github.com/en/actions/guides/building-and-testing-python
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v2
       with:
-        python-version: ${{ matrix.python-version }}
+        python-version: '3.x'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
