@@ -273,8 +273,8 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 
   <br>
 </details>
-<br><br>
+<br><br><br><br>
 
 *All tests created and shared by :purple_heart: Bianca Ruiz:purple_heart:*
 
-* :nerd_face:Github: @RuizTheRuler*
+*:nerd_face: Github: @RuizTheRuler*
