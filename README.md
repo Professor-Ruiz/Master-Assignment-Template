@@ -1,4 +1,4 @@
-# Lesson XX Programming Assignment
+# Lesson X Programming Assignment
 
 ## Objectives
 - Formulate a working solution to a business problem that incorporates `<recursion>, <user-defined functions>, <iteration>, <conditionals>`.
