@@ -188,25 +188,47 @@ Paste the code above into test_exercise.py, then update the following:
     
 <br>
 
-- Leave the value of ```inp_1``` on [line 9](../tests/test_exercise.py#L9) as an empty list
-    
-- Assign the value of the expected program output to ```out_1``` on line 10
-  - It should be a list of string(s) 
-  - Each string in the list should correspond to a complete line of output on the console.
-  - Exclude any ```input()``` function prompts (only include ```print()``` function output)
-  - Exclude newline characters and blank lines (```\n```).
+```Python
+import pytest
+import src.exercise
 
-- Delete lines 12-14: ```inp_2``` and ```out_2```
-  
-- At (now) line 13, delete ```, (inp_2, out_2)``` from the decorator.
-  
-- Finished Example:
+inp_1 = []
+out_1 = []
+
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
+def test_capture_stdout(capsys, test_input, expected):
+    
+    # Load the test input for the program execution:
+    def mock_input(s):
+        return test_input.pop(0)
+    src.exercise.input = mock_input
+    
+    # Execute the student program, and capture the output (print statements):
+    src.exercise.main()
+    out, err = capsys.readouterr()
+
+    # Reformat program output as a list of strings.
+    # Each line of output will be a list element, excluding blank newlines.
+    out = out.strip().split('\n')
+    out = [i for i in out if i]
+
+    # Test the actual program output against the anticipated program output:
+    assert out == expected
+```
+Paste the code above into test_exercise.py, then update the following:
+
+- The input (```inp_1```) should remain an empty list.
+    
+- The output (```out_1```) should be a list of string(s):
+    - Each string in the list should correspond to a complete line of output on the console.
+    - Exclude any ```input()``` function prompts (only include ```print()``` function output)
+    - Exclude newline characters and blank lines (```\n```).
+    
+- Example:
   ```Python
-   9 inp_1 = []
-  10 out_1 = ['hello']
-  11   
-  12 # run the test function for each input/output pair
-  13 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1)])
+   4 inp_1 = []
+   5 out_1 = ['1 plus 1 is 2', '1 plus 2 is 3', '1 plus 3 is 4']
   ```
 
 </details>
