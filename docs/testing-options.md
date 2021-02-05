@@ -235,7 +235,7 @@ Paste the code above into test_exercise.py, then update the following:
 
 <br>
 <details>
-  <summary><b>Test for a single string in the program output</b></summary>
+  <summary><b>Test for a specific string in the program output</b></summary>
 
 > This test will execute your student's program twice. You supply the inputs and the test strings. The test captures the program output in it's entirety. Then it tests if the given string is in the program output.
     
