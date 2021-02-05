@@ -1,8 +1,8 @@
 import pytest
 import src.exercise
 
-inp_1 = []
-out_1 = []
+inp_1 = ['bianca']
+out_1 = ['bianca']
 
 def test_capture_stdout(capsys, inp_1, out_1):
     
