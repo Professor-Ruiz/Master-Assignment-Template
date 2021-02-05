@@ -237,37 +237,49 @@ Paste the code above into test_exercise.py, then update the following:
 <details>
   <summary><b>Test for a single string in the program output</b></summary>
 
-> This test will execute your student's program twice. You supply the input and the test string. The test captures the program output in it's entirety. Then it tests if the given string is in the program output.
+> This test will execute your student's program twice. You supply the inputs and the test strings. The test captures the program output in it's entirety. Then it tests if the given string is in the program output.
     
 <br>
+```Python
+import pytest
+import src.exercise
 
-Update [lines 9-13](../tests/test_exercise.py#L9) of test_exercise.py
+inp_1 = []
+out_1 = []
 
-- Assign the program inputs to ```inp_1``` and ```inp_2```:
-  - They should be lists of string(s) 
-  - Exclude any ```input()``` function prompts.
-  - Exclude newline characters (```\n```).
-    
-- Assign the test strings to ```out_1``` and ```out_2```
-    - They should each be a single string enclosed in quotes.
-    
-- Delete lines 28-32. This code reformats the captured program output, it will break your test.
+inp_2 = []
+out_2 = []
 
-- change the assert statement to ```assert expected in out```
+# run the test function for each input/output pair
+@pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2)])
+def test_capture_stdout(capsys, test_input, expected):
     
-- Finished Example:
+    # Load the test input for the program execution:
+    def mock_input(s):
+        return test_input.pop(0)
+    src.exercise.input = mock_input
+    
+    # Execute the student program, and capture the output (print statements):
+    src.exercise.main()
+    out, err = capsys.readouterr()
+
+    # Test the actual program output against the anticipated program output:
+    assert expected in out
+```
+Paste the code above into test_exercise.py, then update the following:
+
+- The inputs (```inp_1```, ```inp_2```) should be lists of string(s):
+    - Exclude any ```input()``` function prompts.
+    - Exclude newline characters (```\n```).
+    
+- The outputs (```out_1```, ```out_2```) should be the test strings:
+    - They should be a single string, enclosed in quotes.
+    
+- Example:
   ```Python
-  09 inp_1 = ['1', '1']
-  10 out_1 = '2'
-  11
-  12 inp_1 = ['2', '3']
-  13 out_1 = '5'
-  ..
-  ..
-  26     out, err = capsys.readouterr()
-  27
-  28     # Test if the expected output was in the actual output:
-  29     assert expected in out
+   4 inp_1 = ['1']
+   5 out_1 = 'One'
   ```
+
   <br>
 </details>
