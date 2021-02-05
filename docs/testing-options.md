@@ -273,8 +273,7 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 
   <br>
 </details>
+<br><br>
 
-
-References:
-- https://docs.pytest.org/en/stable/parametrize.html
-- https://docs.pytest.org/en/stable/capture.html
+*All tests created and shared by Bianca Ruiz
+Github @RuizTheRuler*
