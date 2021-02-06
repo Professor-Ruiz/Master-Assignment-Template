@@ -269,7 +269,7 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
     
 - Delete the [tests directory](../tests) in its entirety
 
-
+- Delete [line 28](/.github/workflows/workflow.yml#L28) of the workflow.yml file
 
   <br>
 </details>
