@@ -42,13 +42,13 @@
       ![exercise.py](assets/exercise-file.png)    
 7. Will students need to import any modules into their program?
     - Example:
-        ```
+        ```Python
         import sys
         import NumPy
         import Tkinter
         ```
     - If yes, add those modules to [line 28](/.github/workflows/workflow.yml#L28) of the workflow.yml file
-        ```
+        ```yml
         pip install pytest flake8 sys NumPy Tkinter
         ```
 8. Choose the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md) (Here's [another link](https://github.com/Professor-Ruiz/master-assignment-template/blob/main/docs/testing-options.md)).  I've already pre-written the tests so they'll run automatically with each student submission.

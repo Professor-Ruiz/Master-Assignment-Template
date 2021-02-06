@@ -1,6 +1,6 @@
 # Testing Options
 
-> Choose one of five autograding option below. I've already pre-written the the testing scripts and integrated them into the assignment so they automatically run with each student submission. I've also kept the required edits to a minimum and provided easy and explicit directions for you.
+> Choose one of six autograding option below. I've already pre-written the the testing scripts and integrated them into the assignment so they automatically run with each student submission. I've also kept the required edits to a minimum and provided easy and explicit directions for you.
 >
 > HOT TIP: Put your solution code in [exercise.py](../src/exercise.py) before you begin updating the tests. That way, when you commit your changes to [exercise_test.py](../tests/test_exercise.py), you'll immediately see if it passes the pytest. Just make sure to delete the solution before you make an assignment!!
 
@@ -260,7 +260,27 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 
   <br>
 </details>
-<br><br>
+
+<br>
+<details>
+  <summary><b>No tests</b></summary>
+
+> This test will not execute your student's program. It will only "lint" the program and check for syntax errors.
+    
+- Delete the [tests directory](../tests) in its entirety
+
+- Delete [line 35-37](/.github/workflows/workflow.yml#L35) of the workflow.yml file:
+  ```yml
+        - name: Test with pytest
+          run: |
+            python -m pytest
+  ```
+
+  <br>
+</details>
+
+
+<br>
 
 > *All tests created and shared by*
 >
