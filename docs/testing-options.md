@@ -1,6 +1,6 @@
 # Testing Options
 
-> Choose one of five autograding option below. I've already pre-written the the testing scripts and integrated them into the assignment so they automatically run with each student submission. I've also kept the required edits to a minimum and provided easy and explicit directions for you.
+> Choose one of six autograding option below. I've already pre-written the the testing scripts and integrated them into the assignment so they automatically run with each student submission. I've also kept the required edits to a minimum and provided easy and explicit directions for you.
 >
 > HOT TIP: Put your solution code in [exercise.py](../src/exercise.py) before you begin updating the tests. That way, when you commit your changes to [exercise_test.py](../tests/test_exercise.py), you'll immediately see if it passes the pytest. Just make sure to delete the solution before you make an assignment!!
 
