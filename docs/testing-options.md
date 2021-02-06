@@ -260,6 +260,21 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 
   <br>
 </details>
+
+<br>
+<details>
+  <summary><b>No tests</b></summary>
+
+> This test will not execute your student's program. It will only "lint" the program and check for syntax errors.
+    
+- Delete the [tests directory] in its entirety
+
+
+
+  <br>
+</details>
+
+
 <br><br>
 
 > *All tests created and shared by*
