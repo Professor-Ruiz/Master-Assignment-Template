@@ -267,7 +267,7 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 
 > This test will not execute your student's program. It will only "lint" the program and check for syntax errors.
     
-- Delete the [tests directory](/delete/Feature-No-Tests/tests) in its entirety
+- Delete the [tests directory](../delete/Feature-No-Tests/tests) in its entirety
 
 
 
