@@ -270,10 +270,10 @@ Paste the code above into [exercise_test.py](../tests/test_exercise.py), then up
 - Delete the [tests directory](../tests) in its entirety
 
 - Delete [line 35-37](/.github/workflows/workflow.yml#L35) of the workflow.yml file:
-  ```yaml
-   35 meow
-   36 meow
-   37 meow
+  ```yml
+   35     - name: Test with pytest
+   36       run: |
+   37         python -m pytest
   ```
 
   <br>
