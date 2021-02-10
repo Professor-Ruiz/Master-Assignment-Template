@@ -46,7 +46,7 @@
         import Pandas
         import NumPy
         ```
-    - If yes, add those modules to [line 28](/.github/workflows/workflow.yml#L28) of the workflow.yml file
+    - If yes, add those modules to [line 19](/.github/workflows/workflow.yml#L19) of the workflow.yml file
         ```yml
         pip install pytest flake8 NumPy Pandas
         ```
