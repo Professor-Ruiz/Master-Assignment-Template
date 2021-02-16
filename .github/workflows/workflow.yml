@@ -1,26 +1,22 @@
+  
 name: Build and Test
 
 on:
   push:
     paths: 
-      - 'src/exercise.py' 
-                                                                                
-jobs:  
+      - 'src/exercise.py'                                                                                  
+     
+jobs:
+     
   build_and_test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-      
-    - name: Install Dependencies
-      run: |
+    - run: |
         python3 -m pip install --upgrade pip
-        pip install -r requirements.txt
-        
-    - name: Run Tests
-      run: |
-        flake8 src/exercise.py --count --select=E9,F63,F7,F82 --show-source --statistics
-        flake8 src/exercise.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-        python3 -m pytest
+        pip install pytest flake8
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics 
+        python3 -m pytest  
