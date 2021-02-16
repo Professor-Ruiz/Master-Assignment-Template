@@ -6,12 +6,12 @@
 - Recognize, Identify, Select, Analyze, Differentiate, Distinguish, Diagram, Examine, Outline, Subdivide, Understand, Demonstrate, Illustrate, Represent, Interpret, Evaluate, Apply, Assess, Chart, Construct, Develop, Implement, Prepare, Provide, Compute, Contribute, Determine, Establish, Include, Produce, Show, Combine, Design, Make, Plan, Compose, Create, Devise, Formulate, 
 
 ## Directions
-- Design a program that `<...>`
-
 - Develop your algorithm before writing any code. Create a flowchart to illustrate your logic.
     - [diagrams.net](https://app.diagrams.net/) is a free and easy tool you can use to create flowcharts. 
     - I created an [instructional video](https://youtu.be/oy5nhA7QpNI) outlining how to create and submit flowcharts.
-    
+
+- Design a program that `<...>`
+   
 - Format the `<user prompt> <output> <file>` as shown in the example below:
   ```
   <format example>
@@ -25,7 +25,7 @@
   Assignment: Lesson X Programming Assignment
   Author: Jane Doe
   Due Date: MM/DD/YYYY
-  CS-XXXX; Professor Bianca Ruiz
+  CS-XXXX; Professor XXX
 
   Description:
   <Description of program goes here>
