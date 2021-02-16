@@ -1,0 +1,14 @@
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+# The code below keeps the github actions listed in workflow.yml up-to-date so autograding doesn't break
+# Example: actions/checkout@v2 actions/setup-python@v2 JasonEtco/create-an-issue@v2 
+# A pull request will be automatically generated if any action needs an update
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/" 
+    schedule:
+      interval: "monthly"
+      day: "sunday"
+      time: "23:00"
+      timezone: "America/Denver"
