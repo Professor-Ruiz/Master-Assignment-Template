@@ -40,15 +40,18 @@
     - Do you need to add a user-defined function stub?
     
       ![exercise.py](assets/exercise-file.png)    
-7. Will students need to import any modules into their program?
+7. Will students (or you) need to import any modules (or other dependencies) into their program?
     - Example:
         ```Python
         import Pandas
         import NumPy
         ```
-    - If yes, add those modules to [line 19](/.github/workflows/workflow.yml#L19) of the workflow.yml file
+    - If yes, add those to [requirements.txt](/requirements.txt):
         ```yml
-        pip install pytest flake8 NumPy Pandas
+        flake8==3.8.4
+        pytest==6.2.2
+        pandas==1.2.2
+        NumPy        # note: although verson numbers are encouraged, they are not required
         ```
 8. Choose the tests you'll use to autograde student submissions by opening [this page](/docs/testing-options.md) (Here's [another link](https://github.com/Professor-Ruiz/master-assignment-template/blob/main/docs/testing-options.md)).  I've already pre-written the tests so they'll run automatically with each student submission.
 
