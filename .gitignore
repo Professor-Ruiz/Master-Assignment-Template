@@ -1,0 +1,6 @@
+
+# Exclude everything except the src and tests directory
+
+/*
+!/src
+!/tests
